@@ -2,282 +2,282 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Daniel Pritchett: Blog</title>
-    <link>https://dpritchett.github.io/tags/</link>
+    <link>https://www.dpritchett.net/tags/</link>
     <description>Recent content in Tags on Daniel Pritchett: Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Nov 2016 12:30:17 -0600</lastBuildDate>
     
-	<atom:link href="https://dpritchett.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.dpritchett.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Agile</title>
-      <link>https://dpritchett.github.io/tags/agile/</link>
+      <link>https://www.dpritchett.net/tags/agile/</link>
       <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/agile/</guid>
+      <guid>https://www.dpritchett.net/tags/agile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Community</title>
-      <link>https://dpritchett.github.io/tags/community/</link>
+      <link>https://www.dpritchett.net/tags/community/</link>
       <pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/community/</guid>
+      <guid>https://www.dpritchett.net/tags/community/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computer Science</title>
-      <link>https://dpritchett.github.io/tags/computer-science/</link>
+      <link>https://www.dpritchett.net/tags/computer-science/</link>
       <pubDate>Tue, 09 Jul 2013 17:48:10 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/computer-science/</guid>
+      <guid>https://www.dpritchett.net/tags/computer-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conferences</title>
-      <link>https://dpritchett.github.io/tags/conferences/</link>
+      <link>https://www.dpritchett.net/tags/conferences/</link>
       <pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/conferences/</guid>
+      <guid>https://www.dpritchett.net/tags/conferences/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Consulting</title>
-      <link>https://dpritchett.github.io/tags/consulting/</link>
+      <link>https://www.dpritchett.net/tags/consulting/</link>
       <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/consulting/</guid>
+      <guid>https://www.dpritchett.net/tags/consulting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Daemons</title>
-      <link>https://dpritchett.github.io/tags/daemons/</link>
+      <link>https://www.dpritchett.net/tags/daemons/</link>
       <pubDate>Tue, 09 Jul 2013 17:48:10 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/daemons/</guid>
+      <guid>https://www.dpritchett.net/tags/daemons/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ecommerce</title>
-      <link>https://dpritchett.github.io/tags/ecommerce/</link>
+      <link>https://www.dpritchett.net/tags/ecommerce/</link>
       <pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/ecommerce/</guid>
+      <guid>https://www.dpritchett.net/tags/ecommerce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Editors</title>
-      <link>https://dpritchett.github.io/tags/editors/</link>
+      <link>https://www.dpritchett.net/tags/editors/</link>
       <pubDate>Wed, 18 Jun 2014 13:53:10 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/editors/</guid>
+      <guid>https://www.dpritchett.net/tags/editors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fortune</title>
-      <link>https://dpritchett.github.io/tags/fortune/</link>
+      <link>https://www.dpritchett.net/tags/fortune/</link>
       <pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/fortune/</guid>
+      <guid>https://www.dpritchett.net/tags/fortune/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>https://dpritchett.github.io/tags/go/</link>
+      <link>https://www.dpritchett.net/tags/go/</link>
       <pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/go/</guid>
+      <guid>https://www.dpritchett.net/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://dpritchett.github.io/tags/golang/</link>
+      <link>https://www.dpritchett.net/tags/golang/</link>
       <pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/golang/</guid>
+      <guid>https://www.dpritchett.net/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Heroku</title>
-      <link>https://dpritchett.github.io/tags/heroku/</link>
+      <link>https://www.dpritchett.net/tags/heroku/</link>
       <pubDate>Thu, 27 Feb 2014 18:49:35 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/heroku/</guid>
+      <guid>https://www.dpritchett.net/tags/heroku/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Homebrew</title>
-      <link>https://dpritchett.github.io/tags/homebrew/</link>
+      <link>https://www.dpritchett.net/tags/homebrew/</link>
       <pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/homebrew/</guid>
+      <guid>https://www.dpritchett.net/tags/homebrew/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neo4j</title>
-      <link>https://dpritchett.github.io/tags/neo4j/</link>
+      <link>https://www.dpritchett.net/tags/neo4j/</link>
       <pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/neo4j/</guid>
+      <guid>https://www.dpritchett.net/tags/neo4j/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Osx</title>
-      <link>https://dpritchett.github.io/tags/osx/</link>
+      <link>https://www.dpritchett.net/tags/osx/</link>
       <pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/osx/</guid>
+      <guid>https://www.dpritchett.net/tags/osx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Postgresql</title>
-      <link>https://dpritchett.github.io/tags/postgresql/</link>
+      <link>https://www.dpritchett.net/tags/postgresql/</link>
       <pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/postgresql/</guid>
+      <guid>https://www.dpritchett.net/tags/postgresql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>https://dpritchett.github.io/tags/programming/</link>
+      <link>https://www.dpritchett.net/tags/programming/</link>
       <pubDate>Wed, 18 Jun 2014 13:53:10 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/programming/</guid>
+      <guid>https://www.dpritchett.net/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://dpritchett.github.io/tags/projects/</link>
+      <link>https://www.dpritchett.net/tags/projects/</link>
       <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/projects/</guid>
+      <guid>https://www.dpritchett.net/tags/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rails</title>
-      <link>https://dpritchett.github.io/tags/rails/</link>
+      <link>https://www.dpritchett.net/tags/rails/</link>
       <pubDate>Thu, 27 Feb 2014 18:49:35 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/rails/</guid>
+      <guid>https://www.dpritchett.net/tags/rails/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby</title>
-      <link>https://dpritchett.github.io/tags/ruby/</link>
+      <link>https://www.dpritchett.net/tags/ruby/</link>
       <pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/ruby/</guid>
+      <guid>https://www.dpritchett.net/tags/ruby/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby Programming</title>
-      <link>https://dpritchett.github.io/tags/ruby-programming/</link>
+      <link>https://www.dpritchett.net/tags/ruby-programming/</link>
       <pubDate>Thu, 25 Apr 2013 16:22:00 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/ruby-programming/</guid>
+      <guid>https://www.dpritchett.net/tags/ruby-programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby on Rails</title>
-      <link>https://dpritchett.github.io/tags/ruby-on-rails/</link>
+      <link>https://www.dpritchett.net/tags/ruby-on-rails/</link>
       <pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/ruby-on-rails/</guid>
+      <guid>https://www.dpritchett.net/tags/ruby-on-rails/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shipping</title>
-      <link>https://dpritchett.github.io/tags/shipping/</link>
+      <link>https://www.dpritchett.net/tags/shipping/</link>
       <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/shipping/</guid>
+      <guid>https://www.dpritchett.net/tags/shipping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slideshow</title>
-      <link>https://dpritchett.github.io/tags/slideshow/</link>
+      <link>https://www.dpritchett.net/tags/slideshow/</link>
       <pubDate>Thu, 27 Feb 2014 18:49:35 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/slideshow/</guid>
+      <guid>https://www.dpritchett.net/tags/slideshow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>https://dpritchett.github.io/tags/software/</link>
+      <link>https://www.dpritchett.net/tags/software/</link>
       <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/software/</guid>
+      <guid>https://www.dpritchett.net/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spree</title>
-      <link>https://dpritchett.github.io/tags/spree/</link>
+      <link>https://www.dpritchett.net/tags/spree/</link>
       <pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/spree/</guid>
+      <guid>https://www.dpritchett.net/tags/spree/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tennessee</title>
-      <link>https://dpritchett.github.io/tags/tennessee/</link>
+      <link>https://www.dpritchett.net/tags/tennessee/</link>
       <pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/tennessee/</guid>
+      <guid>https://www.dpritchett.net/tags/tennessee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>https://dpritchett.github.io/tags/vim/</link>
+      <link>https://www.dpritchett.net/tags/vim/</link>
       <pubDate>Wed, 18 Jun 2014 13:53:10 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/vim/</guid>
+      <guid>https://www.dpritchett.net/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Whytheluckystiff</title>
-      <link>https://dpritchett.github.io/tags/whytheluckystiff/</link>
+      <link>https://www.dpritchett.net/tags/whytheluckystiff/</link>
       <pubDate>Fri, 19 Apr 2013 01:43:05 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/whytheluckystiff/</guid>
+      <guid>https://www.dpritchett.net/tags/whytheluckystiff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xp</title>
-      <link>https://dpritchett.github.io/tags/xp/</link>
+      <link>https://www.dpritchett.net/tags/xp/</link>
       <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/tags/xp/</guid>
+      <guid>https://www.dpritchett.net/tags/xp/</guid>
       <description></description>
     </item>
     

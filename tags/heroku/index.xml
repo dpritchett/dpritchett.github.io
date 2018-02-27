@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Heroku on Daniel Pritchett: Blog</title>
-    <link>https://dpritchett.github.io/tags/heroku/</link>
+    <link>https://www.dpritchett.net/tags/heroku/</link>
     <description>Recent content in Heroku on Daniel Pritchett: Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Feb 2014 18:49:35 +0000</lastBuildDate>
     
-	<atom:link href="https://dpritchett.github.io/tags/heroku/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.dpritchett.net/tags/heroku/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lightweight Spree testing and deployment with Wercker and Heroku</title>
-      <link>https://dpritchett.github.io/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</link>
+      <link>https://www.dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</link>
       <pubDate>Thu, 27 Feb 2014 18:49:35 +0000</pubDate>
       
-      <guid>https://dpritchett.github.io/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</guid>
+      <guid>https://www.dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</guid>
       <description>Continuous deployment to Heroku has been a huge help on my last two projects. You might find it useful too!</description>
     </item>
     

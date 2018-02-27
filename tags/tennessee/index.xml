@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tennessee on Daniel Pritchett: Blog</title>
-    <link>https://dpritchett.github.io/tags/tennessee/</link>
+    <link>https://www.dpritchett.net/tags/tennessee/</link>
     <description>Recent content in Tennessee on Daniel Pritchett: Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Feb 2017 13:29:12 -0600</lastBuildDate>
     
-	<atom:link href="https://dpritchett.github.io/tags/tennessee/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.dpritchett.net/tags/tennessee/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Get Excited About Southeast Ruby Conference!</title>
-      <link>https://dpritchett.github.io/posts/southeast-ruby-conf/</link>
+      <link>https://www.dpritchett.net/posts/southeast-ruby-conf/</link>
       <pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
       
-      <guid>https://dpritchett.github.io/posts/southeast-ruby-conf/</guid>
+      <guid>https://www.dpritchett.net/posts/southeast-ruby-conf/</guid>
       <description>My good buddy and local Ruby luminary Jason Charnes has recently announced that he&amp;rsquo;s bringing the Ruby conference circuit back to Tennessee! Do yourselves a favor and go sign up right now at SoutheastRuby.com!
 With Avdi Grimm as the first announced keynote and a cool venue called Ruby in Nashville it&amp;rsquo;s sure to be a godo time. Plus, my personal experience with PyTennessee has convinced me that Nashville is generally a pretty cool spot to spend a weekend.</description>
     </item>
