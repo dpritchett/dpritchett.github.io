@@ -8,24 +8,24 @@
 <meta name="description" content="Notes on a career in internet software">
 <meta name="generator" content="Hugo 0.37" />
 <title>Endless HTTParty retries in Ruby with a simple block</title>
-<link rel="shortcut icon" href="https://www.dpritchett.net/images/favicon.ico">
-<link rel="stylesheet" href="https://www.dpritchett.net/css/style.css">
-<link rel="stylesheet" href="https://www.dpritchett.net/css/highlight.css">
+<link rel="shortcut icon" href="https://dpritchett.net/images/favicon.ico">
+<link rel="stylesheet" href="https://dpritchett.net/css/style.css">
+<link rel="stylesheet" href="https://dpritchett.net/css/highlight.css">
 
 
 
-<link rel="stylesheet" href="https://www.dpritchett.net/css/monosocialiconsfont.css">
+<link rel="stylesheet" href="https://dpritchett.net/css/monosocialiconsfont.css">
 
 
 
-<link href="https://www.dpritchett.net/index.xml" rel="alternate" type="application/rss+xml" title="Daniel Pritchett: Blog" />
+<link href="https://dpritchett.net/index.xml" rel="alternate" type="application/rss+xml" title="Daniel Pritchett: Blog" />
 
 
 <meta property="og:title" content="Endless HTTParty retries in Ruby with a simple block" />
 <meta property="og:description" content="See also: A Ruby HOWTO: Writing A Method That Uses Code Blocks
 # Simple wrapper to allow retries for HTTP requests - prolongs daemon life. def with_http_retries(&amp;block) begin yield rescue Errno::ECONNREFUSED, SocketError, Net::ReadTimeout DaemonKit.logger.error &quot;Cannot reach [#{@service_url}]. Retrying in #{@retry_seconds} seconds.&quot; sleep @retry_seconds retry end end # DRYing up the connection params @request_params = [@service_url, { headers: { &quot;Authorization&quot; =&gt; &quot;Token token=#{api_key}&quot; }, timeout: 5 }] loop do response = with_http_retries { HTTParty." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/" />
+<meta property="og:url" content="https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/" />
 
 
 
@@ -69,13 +69,13 @@
 <body>
     <nav class="main-nav">
 	
-		<a href='https://www.dpritchett.net'> <span class="arrow">←</span>Home</a>
+		<a href='https://dpritchett.net'> <span class="arrow">←</span>Home</a>
 	
 
 	
 
 	
-		<a class="cta" href="https://www.dpritchett.net/index.xml">Subscribe</a>
+		<a class="cta" href="https://dpritchett.net/index.xml">Subscribe</a>
 	
 </nav>
 
@@ -92,13 +92,13 @@
         
         
             
-                <a href="https://www.dpritchett.net/tags/ruby">ruby</a>
+                <a href="https://dpritchett.net/tags/ruby">ruby</a>
             
-                <a href="https://www.dpritchett.net/tags/programming">programming</a>
+                <a href="https://dpritchett.net/tags/programming">programming</a>
             
-                <a href="https://www.dpritchett.net/tags/computer-science">computer science</a>
+                <a href="https://dpritchett.net/tags/computer-science">computer science</a>
             
-                <a href="https://www.dpritchett.net/tags/daemons">daemons</a>
+                <a href="https://dpritchett.net/tags/daemons">daemons</a>
             
         
         
@@ -136,14 +136,14 @@ end
 
 <footer id="post-meta" class="clearfix">
     <a href="https://twitter.com/dpritchett">
-    <img class="avatar" src="https://www.dpritchett.net/images/avatar.png">
+    <img class="avatar" src="https://dpritchett.net/images/avatar.png">
     <div>
         <span class="dark">Daniel Pritchett</span>
         <span></span>
     </div>
     </a>
     <section id="sharing">
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.dpritchett.net%2fposts%2f2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block%2f - Endless%20HTTParty%20retries%20in%20Ruby%20with%20a%20simple%20block by @dpritchett"><span class="icon-twitter"> tweet</span></a>
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fdpritchett.net%2fposts%2f2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block%2f - Endless%20HTTParty%20retries%20in%20Ruby%20with%20a%20simple%20block by @dpritchett"><span class="icon-twitter"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -165,43 +165,43 @@ end
     
     
         <li>
-            <a href="https://www.dpritchett.net/posts/chatbot-book-update/">Book update: meme generator chapter in progress<aside class="dates">Aug 13 2017</aside></a>
+            <a href="https://dpritchett.net/posts/chatbot-book-update/">Book update: meme generator chapter in progress<aside class="dates">Aug 13 2017</aside></a>
         </li>
     
         <li>
-            <a href="https://www.dpritchett.net/posts/southeast-ruby-conf/">Get Excited About Southeast Ruby Conference!<aside class="dates">Feb 20 2017</aside></a>
+            <a href="https://dpritchett.net/posts/southeast-ruby-conf/">Get Excited About Southeast Ruby Conference!<aside class="dates">Feb 20 2017</aside></a>
         </li>
     
         <li>
-            <a href="https://www.dpritchett.net/posts/first-rule-of-software-projects/">The first rule of software projects<aside class="dates">Nov 21 2016</aside></a>
+            <a href="https://dpritchett.net/posts/first-rule-of-software-projects/">The first rule of software projects<aside class="dates">Nov 21 2016</aside></a>
         </li>
     
         <li>
-            <a href="https://www.dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/">I&#39;m Guest Posting on Spree and Neo4j for GraphStory.com<aside class="dates">Nov 19 2014</aside></a>
+            <a href="https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/">I&#39;m Guest Posting on Spree and Neo4j for GraphStory.com<aside class="dates">Nov 19 2014</aside></a>
         </li>
     
         <li>
-            <a href="https://www.dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/">Two vim tips I hope to actually remember this time<aside class="dates">Jun 18 2014</aside></a>
+            <a href="https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/">Two vim tips I hope to actually remember this time<aside class="dates">Jun 18 2014</aside></a>
         </li>
     
         <li>
-            <a href="https://www.dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/">Lightweight Spree testing and deployment with Wercker and Heroku<aside class="dates">Feb 27 2014</aside></a>
+            <a href="https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/">Lightweight Spree testing and deployment with Wercker and Heroku<aside class="dates">Feb 27 2014</aside></a>
         </li>
     
         <li>
-            <a href="https://www.dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/">Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases<aside class="dates">Jul 3 2013</aside></a>
+            <a href="https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/">Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases<aside class="dates">Jul 3 2013</aside></a>
         </li>
     
         <li>
-            <a href="https://www.dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/">Fortune in Golang - Proof of Concept<aside class="dates">May 13 2013</aside></a>
+            <a href="https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/">Fortune in Golang - Proof of Concept<aside class="dates">May 13 2013</aside></a>
         </li>
     
         <li>
-            <a href="https://www.dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/">Favorite Ruby console tweaks to make my job easier - pry edition<aside class="dates">Apr 25 2013</aside></a>
+            <a href="https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/">Favorite Ruby console tweaks to make my job easier - pry edition<aside class="dates">Apr 25 2013</aside></a>
         </li>
     
         <li>
-            <a href="https://www.dpritchett.net/posts/2013-04-19-whys-return/">_why&#39;s return<aside class="dates">Apr 19 2013</aside></a>
+            <a href="https://dpritchett.net/posts/2013-04-19-whys-return/">_why&#39;s return<aside class="dates">Apr 19 2013</aside></a>
         </li>
     
 </ul>
@@ -237,8 +237,8 @@ end
 
     </section>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://www.dpritchett.net/js/main.js"></script>
-<script src="https://www.dpritchett.net/js/highlight.js"></script>
+<script src="https://dpritchett.net/js/main.js"></script>
+<script src="https://dpritchett.net/js/highlight.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
