@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osx on Daniel Pritchett: Blog</title>
+    <link>https://blog.dpritchett.net/tags/osx/</link>
+    <description>Recent content in Osx on Daniel Pritchett: Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jul 2013 16:16:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.dpritchett.net/tags/osx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases</title>
+      <link>https://blog.dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</link>
+      <pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
+      
+      <guid>https://blog.dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</guid>
+      <description>Symptoms  You just rebooted and suddenly PostgreSQL isn&amp;rsquo;t responding Restarting postgres fails due to a &amp;ldquo;Your data files are incompatible with the current version of Postgres&amp;rdquo; error.  Prescription There&amp;rsquo;s a utility that comes with Postgres named pg_upgrade which should sort you out. In order to work it you&amp;rsquo;ll need to create and initialize a new postgres data directory and then call pg_upgrade and pass it paths for the old binaries, new binaries, old data directory, and new data directory.</description>
+    </item>
+    
+  </channel>
+</rss>

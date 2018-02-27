@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Daniel Pritchett: Blog</title>
+    <link>https://blog.dpritchett.net/tags/programming/</link>
+    <description>Recent content in Programming on Daniel Pritchett: Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jun 2014 13:53:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.dpritchett.net/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two vim tips I hope to actually remember this time</title>
+      <link>https://blog.dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</link>
+      <pubDate>Wed, 18 Jun 2014 13:53:10 +0000</pubDate>
+      
+      <guid>https://blog.dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</guid>
+      <description>Read from an external command into the current buffer :read prints the results of an external command into the current buffer.
+Example :read ! cat /etc/passwd will copy the /etc/passwd file into the current buffer.
+Pasting yanked text into the command input Yank a word (e.g. yw to yank the word under the cursor) Enter the vim command line via : Ctrl-R, &amp;quot; to paste from the default register.</description>
+    </item>
+    
+    <item>
+      <title>Lightweight Spree testing and deployment with Wercker and Heroku</title>
+      <link>https://blog.dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</link>
+      <pubDate>Thu, 27 Feb 2014 18:49:35 +0000</pubDate>
+      
+      <guid>https://blog.dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</guid>
+      <description>Continuous deployment to Heroku has been a huge help on my last two projects. You might find it useful too!</description>
+    </item>
+    
+    <item>
+      <title>Endless HTTParty retries in Ruby with a simple block</title>
+      <link>https://blog.dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</link>
+      <pubDate>Tue, 09 Jul 2013 17:48:10 +0000</pubDate>
+      
+      <guid>https://blog.dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</guid>
+      <description>See also: A Ruby HOWTO: Writing A Method That Uses Code Blocks
+# Simple wrapper to allow retries for HTTP requests - prolongs daemon life. def with_http_retries(&amp;amp;block) begin yield rescue Errno::ECONNREFUSED, SocketError, Net::ReadTimeout DaemonKit.logger.error &amp;quot;Cannot reach [#{@service_url}]. Retrying in #{@retry_seconds} seconds.&amp;quot; sleep @retry_seconds retry end end # DRYing up the connection params @request_params = [@service_url, { headers: { &amp;quot;Authorization&amp;quot; =&amp;gt; &amp;quot;Token token=#{api_key}&amp;quot; }, timeout: 5 }] loop do response = with_http_retries { HTTParty.</description>
+    </item>
+    
+    <item>
+      <title>Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases</title>
+      <link>https://blog.dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</link>
+      <pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
+      
+      <guid>https://blog.dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</guid>
+      <description>Symptoms  You just rebooted and suddenly PostgreSQL isn&amp;rsquo;t responding Restarting postgres fails due to a &amp;ldquo;Your data files are incompatible with the current version of Postgres&amp;rdquo; error.  Prescription There&amp;rsquo;s a utility that comes with Postgres named pg_upgrade which should sort you out. In order to work it you&amp;rsquo;ll need to create and initialize a new postgres data directory and then call pg_upgrade and pass it paths for the old binaries, new binaries, old data directory, and new data directory.</description>
+    </item>
+    
+    <item>
+      <title>Fortune in Golang - Proof of Concept</title>
+      <link>https://blog.dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</link>
+      <pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
+      
+      <guid>https://blog.dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</guid>
+      <description>This is what I built at today&amp;rsquo;s Memphis Hackathon. Thanks a billion to the Memphis Makers and their MakerSpace! There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.
+package main import ( &amp;quot;bufio&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;os&amp;quot; ) func main() { fmt.Println(nthFortune(0)) } func nthFortune(n int) string { filename := &amp;quot;/usr/local/Cellar/fortune/9708/share/games/fortunes/pets&amp;quot; theFile, _ := os.</description>
+    </item>
+    
+    <item>
+      <title>Favorite Ruby console tweaks to make my job easier - pry edition</title>
+      <link>https://blog.dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</link>
+      <pubDate>Thu, 25 Apr 2013 16:22:00 +0000</pubDate>
+      
+      <guid>https://blog.dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</guid>
+      <description>My current project involves a lot of data coming in from a legacy system. Luckily I have the production web site of the legacy system available to compare against at any time. These two things are helping me out a lot for spot checking.
+I put them both in my ~/.pryrc file so that I always have them locally and I don&amp;rsquo;t have to pollute shared codebases with my pet tools.</description>
+    </item>
+    
+    <item>
+      <title>_why&#39;s return</title>
+      <link>https://blog.dpritchett.net/posts/2013-04-19-whys-return/</link>
+      <pubDate>Fri, 19 Apr 2013 01:43:05 +0000</pubDate>
+      
+      <guid>https://blog.dpritchett.net/posts/2013-04-19-whys-return/</guid>
+      <description>&amp;ldquo;If anyone wants to hook their actual printer up to _why’s queue (which I’m pretty sure is what he intended), iandennismiller transcribed the OCaml program in SPOOL/HOMEWORK which polls whytheluckystiff.net and sends the PCL files to your printer: https://github.com/cwales/cwales.github.com/pull/4
+It’s quite magical. I was woken up this morning by my printer, when the first pages were being published. Now every 5, 10, or 15 minutes my printer starts clanking away (it’s an old one) and a brand new page slowly emerges.</description>
+    </item>
+    
+  </channel>
+</rss>

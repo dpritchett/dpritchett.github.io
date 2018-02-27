@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby Programming on Daniel Pritchett: Blog</title>
+    <link>https://blog.dpritchett.net/tags/ruby-programming/</link>
+    <description>Recent content in Ruby Programming on Daniel Pritchett: Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2013 16:22:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.dpritchett.net/tags/ruby-programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Favorite Ruby console tweaks to make my job easier - pry edition</title>
+      <link>https://blog.dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</link>
+      <pubDate>Thu, 25 Apr 2013 16:22:00 +0000</pubDate>
+      
+      <guid>https://blog.dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</guid>
+      <description>My current project involves a lot of data coming in from a legacy system. Luckily I have the production web site of the legacy system available to compare against at any time. These two things are helping me out a lot for spot checking.
+I put them both in my ~/.pryrc file so that I always have them locally and I don&amp;rsquo;t have to pollute shared codebases with my pet tools.</description>
+    </item>
+    
+    <item>
+      <title>_why&#39;s return</title>
+      <link>https://blog.dpritchett.net/posts/2013-04-19-whys-return/</link>
+      <pubDate>Fri, 19 Apr 2013 01:43:05 +0000</pubDate>
+      
+      <guid>https://blog.dpritchett.net/posts/2013-04-19-whys-return/</guid>
+      <description>&amp;ldquo;If anyone wants to hook their actual printer up to _why’s queue (which I’m pretty sure is what he intended), iandennismiller transcribed the OCaml program in SPOOL/HOMEWORK which polls whytheluckystiff.net and sends the PCL files to your printer: https://github.com/cwales/cwales.github.com/pull/4
+It’s quite magical. I was woken up this morning by my printer, when the first pages were being published. Now every 5, 10, or 15 minutes my printer starts clanking away (it’s an old one) and a brand new page slowly emerges.</description>
+    </item>
+    
+  </channel>
+</rss>
