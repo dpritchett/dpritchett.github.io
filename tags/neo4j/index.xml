@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neo4j on Daniel Pritchett: Blog</title>
-    <link>https://www.dpritchett.net/tags/neo4j/</link>
+    <link>https://dpritchett.net/tags/neo4j/</link>
     <description>Recent content in Neo4j on Daniel Pritchett: Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Nov 2014 16:40:55 +0000</lastBuildDate>
     
-	<atom:link href="https://www.dpritchett.net/tags/neo4j/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dpritchett.net/tags/neo4j/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>I&#39;m Guest Posting on Spree and Neo4j for GraphStory.com</title>
-      <link>https://www.dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</link>
+      <link>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</link>
       <pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
       
-      <guid>https://www.dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</guid>
+      <guid>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</guid>
       <description>I&amp;rsquo;ve recently been working with some friends at a local startup called Graph Story. They provide a hosted graph database solution using Neo4j. They are looking to build up some introductory content to help developers get started with graph databases, so I wrote them a series of posts. Here&amp;rsquo;s the first in the series: Graph Kit for Ruby Part 1: Let’s Build a Recommendation Engine for a Spree Store</description>
     </item>
     

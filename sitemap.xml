@@ -3,263 +3,263 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.dpritchett.net/posts/chatbot-book-update/</loc>
+    <loc>https://dpritchett.net/posts/chatbot-book-update/</loc>
     <lastmod>2017-08-13T18:54:32-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/southeast-ruby-conf/</loc>
+    <loc>https://dpritchett.net/posts/southeast-ruby-conf/</loc>
     <lastmod>2017-02-20T13:29:12-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/first-rule-of-software-projects/</loc>
+    <loc>https://dpritchett.net/posts/first-rule-of-software-projects/</loc>
     <lastmod>2016-11-21T12:30:17-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</loc>
+    <loc>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</loc>
     <lastmod>2014-11-19T16:40:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</loc>
+    <loc>https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</loc>
     <lastmod>2014-06-18T13:53:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</loc>
+    <loc>https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</loc>
     <lastmod>2014-02-27T18:49:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</loc>
+    <loc>https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</loc>
     <lastmod>2013-07-09T17:48:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</loc>
+    <loc>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</loc>
     <lastmod>2013-07-03T16:16:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</loc>
+    <loc>https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</loc>
     <lastmod>2013-05-13T15:00:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</loc>
+    <loc>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</loc>
     <lastmod>2013-04-25T16:22:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/2013-04-19-whys-return/</loc>
+    <loc>https://dpritchett.net/posts/2013-04-19-whys-return/</loc>
     <lastmod>2013-04-19T01:43:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/about/</loc>
+    <loc>https://dpritchett.net/about/</loc>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/agile/</loc>
+    <loc>https://dpritchett.net/tags/agile/</loc>
     <lastmod>2016-11-21T12:30:17-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/categories/</loc>
+    <loc>https://dpritchett.net/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/community/</loc>
+    <loc>https://dpritchett.net/tags/community/</loc>
     <lastmod>2017-02-20T13:29:12-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/computer-science/</loc>
+    <loc>https://dpritchett.net/tags/computer-science/</loc>
     <lastmod>2013-07-09T17:48:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/conferences/</loc>
+    <loc>https://dpritchett.net/tags/conferences/</loc>
     <lastmod>2017-02-20T13:29:12-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/consulting/</loc>
+    <loc>https://dpritchett.net/tags/consulting/</loc>
     <lastmod>2016-11-21T12:30:17-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/daemons/</loc>
+    <loc>https://dpritchett.net/tags/daemons/</loc>
     <lastmod>2013-07-09T17:48:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/</loc>
+    <loc>https://dpritchett.net/</loc>
     <lastmod>2017-08-13T18:54:32-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/ecommerce/</loc>
+    <loc>https://dpritchett.net/tags/ecommerce/</loc>
     <lastmod>2014-11-19T16:40:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/editors/</loc>
+    <loc>https://dpritchett.net/tags/editors/</loc>
     <lastmod>2014-06-18T13:53:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/fortune/</loc>
+    <loc>https://dpritchett.net/tags/fortune/</loc>
     <lastmod>2013-05-13T15:00:05+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/go/</loc>
+    <loc>https://dpritchett.net/tags/go/</loc>
     <lastmod>2013-05-13T15:00:05+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/golang/</loc>
+    <loc>https://dpritchett.net/tags/golang/</loc>
     <lastmod>2013-05-13T15:00:05+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/heroku/</loc>
+    <loc>https://dpritchett.net/tags/heroku/</loc>
     <lastmod>2014-02-27T18:49:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/homebrew/</loc>
+    <loc>https://dpritchett.net/tags/homebrew/</loc>
     <lastmod>2013-07-03T16:16:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/neo4j/</loc>
+    <loc>https://dpritchett.net/tags/neo4j/</loc>
     <lastmod>2014-11-19T16:40:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/osx/</loc>
+    <loc>https://dpritchett.net/tags/osx/</loc>
     <lastmod>2013-07-03T16:16:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/postgresql/</loc>
+    <loc>https://dpritchett.net/tags/postgresql/</loc>
     <lastmod>2013-07-03T16:16:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/posts/</loc>
+    <loc>https://dpritchett.net/posts/</loc>
     <lastmod>2017-08-13T18:54:32-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/programming/</loc>
+    <loc>https://dpritchett.net/tags/programming/</loc>
     <lastmod>2014-06-18T13:53:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/projects/</loc>
+    <loc>https://dpritchett.net/tags/projects/</loc>
     <lastmod>2016-11-21T12:30:17-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/rails/</loc>
+    <loc>https://dpritchett.net/tags/rails/</loc>
     <lastmod>2014-02-27T18:49:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/ruby/</loc>
+    <loc>https://dpritchett.net/tags/ruby/</loc>
     <lastmod>2017-02-20T13:29:12-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/ruby-programming/</loc>
+    <loc>https://dpritchett.net/tags/ruby-programming/</loc>
     <lastmod>2013-04-25T16:22:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/ruby-on-rails/</loc>
+    <loc>https://dpritchett.net/tags/ruby-on-rails/</loc>
     <lastmod>2014-11-19T16:40:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/shipping/</loc>
+    <loc>https://dpritchett.net/tags/shipping/</loc>
     <lastmod>2016-11-21T12:30:17-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/slideshow/</loc>
+    <loc>https://dpritchett.net/tags/slideshow/</loc>
     <lastmod>2014-02-27T18:49:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/software/</loc>
+    <loc>https://dpritchett.net/tags/software/</loc>
     <lastmod>2016-11-21T12:30:17-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/spree/</loc>
+    <loc>https://dpritchett.net/tags/spree/</loc>
     <lastmod>2014-11-19T16:40:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/</loc>
+    <loc>https://dpritchett.net/tags/</loc>
     <lastmod>2016-11-21T12:30:17-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/tennessee/</loc>
+    <loc>https://dpritchett.net/tags/tennessee/</loc>
     <lastmod>2017-02-20T13:29:12-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/vim/</loc>
+    <loc>https://dpritchett.net/tags/vim/</loc>
     <lastmod>2014-06-18T13:53:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/whytheluckystiff/</loc>
+    <loc>https://dpritchett.net/tags/whytheluckystiff/</loc>
     <lastmod>2013-04-19T01:43:05+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.dpritchett.net/tags/xp/</loc>
+    <loc>https://dpritchett.net/tags/xp/</loc>
     <lastmod>2016-11-21T12:30:17-06:00</lastmod>
     <priority>0</priority>
   </url>
