@@ -6,19 +6,10 @@
     <description>Recent content on Daniel Pritchett: Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Feb 2018 08:28:22 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 13 Aug 2017 18:54:32 -0500</lastBuildDate>
     
 	<atom:link href="https://dpritchett.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Fake Post</title>
-      <link>https://dpritchett.github.io/posts/fake-post/</link>
-      <pubDate>Tue, 27 Feb 2018 08:28:22 -0600</pubDate>
-      
-      <guid>https://dpritchett.github.io/posts/fake-post/</guid>
-      <description>This post should be visible on github</description>
-    </item>
     
     <item>
       <title>Book update: meme generator chapter in progress</title>
