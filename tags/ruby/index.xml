@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on Daniel Pritchett: Blog</title>
-    <link>https://blog.dpritchett.net/tags/ruby/</link>
+    <link>https://dpritchett.github.io/tags/ruby/</link>
     <description>Recent content in Ruby on Daniel Pritchett: Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Feb 2017 13:29:12 -0600</lastBuildDate>
     
-	<atom:link href="https://blog.dpritchett.net/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dpritchett.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Get Excited About Southeast Ruby Conference!</title>
-      <link>https://blog.dpritchett.net/posts/southeast-ruby-conf/</link>
+      <link>https://dpritchett.github.io/posts/southeast-ruby-conf/</link>
       <pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
       
-      <guid>https://blog.dpritchett.net/posts/southeast-ruby-conf/</guid>
+      <guid>https://dpritchett.github.io/posts/southeast-ruby-conf/</guid>
       <description>My good buddy and local Ruby luminary Jason Charnes has recently announced that he&amp;rsquo;s bringing the Ruby conference circuit back to Tennessee! Do yourselves a favor and go sign up right now at SoutheastRuby.com!
 With Avdi Grimm as the first announced keynote and a cool venue called Ruby in Nashville it&amp;rsquo;s sure to be a godo time. Plus, my personal experience with PyTennessee has convinced me that Nashville is generally a pretty cool spot to spend a weekend.</description>
     </item>
     
     <item>
       <title>I&#39;m Guest Posting on Spree and Neo4j for GraphStory.com</title>
-      <link>https://blog.dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</link>
+      <link>https://dpritchett.github.io/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</link>
       <pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
       
-      <guid>https://blog.dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</guid>
+      <guid>https://dpritchett.github.io/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</guid>
       <description>I&amp;rsquo;ve recently been working with some friends at a local startup called Graph Story. They provide a hosted graph database solution using Neo4j. They are looking to build up some introductory content to help developers get started with graph databases, so I wrote them a series of posts. Here&amp;rsquo;s the first in the series: Graph Kit for Ruby Part 1: Let’s Build a Recommendation Engine for a Spree Store</description>
     </item>
     
     <item>
       <title>Lightweight Spree testing and deployment with Wercker and Heroku</title>
-      <link>https://blog.dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</link>
+      <link>https://dpritchett.github.io/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</link>
       <pubDate>Thu, 27 Feb 2014 18:49:35 +0000</pubDate>
       
-      <guid>https://blog.dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</guid>
+      <guid>https://dpritchett.github.io/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</guid>
       <description>Continuous deployment to Heroku has been a huge help on my last two projects. You might find it useful too!</description>
     </item>
     
     <item>
       <title>Endless HTTParty retries in Ruby with a simple block</title>
-      <link>https://blog.dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</link>
+      <link>https://dpritchett.github.io/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</link>
       <pubDate>Tue, 09 Jul 2013 17:48:10 +0000</pubDate>
       
-      <guid>https://blog.dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</guid>
+      <guid>https://dpritchett.github.io/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</guid>
       <description>See also: A Ruby HOWTO: Writing A Method That Uses Code Blocks
 # Simple wrapper to allow retries for HTTP requests - prolongs daemon life. def with_http_retries(&amp;amp;block) begin yield rescue Errno::ECONNREFUSED, SocketError, Net::ReadTimeout DaemonKit.logger.error &amp;quot;Cannot reach [#{@service_url}]. Retrying in #{@retry_seconds} seconds.&amp;quot; sleep @retry_seconds retry end end # DRYing up the connection params @request_params = [@service_url, { headers: { &amp;quot;Authorization&amp;quot; =&amp;gt; &amp;quot;Token token=#{api_key}&amp;quot; }, timeout: 5 }] loop do response = with_http_retries { HTTParty.</description>
     </item>
     
     <item>
       <title>Favorite Ruby console tweaks to make my job easier - pry edition</title>
-      <link>https://blog.dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</link>
+      <link>https://dpritchett.github.io/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</link>
       <pubDate>Thu, 25 Apr 2013 16:22:00 +0000</pubDate>
       
-      <guid>https://blog.dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</guid>
+      <guid>https://dpritchett.github.io/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</guid>
       <description>My current project involves a lot of data coming in from a legacy system. Luckily I have the production web site of the legacy system available to compare against at any time. These two things are helping me out a lot for spot checking.
 I put them both in my ~/.pryrc file so that I always have them locally and I don&amp;rsquo;t have to pollute shared codebases with my pet tools.</description>
     </item>
     
     <item>
       <title>_why&#39;s return</title>
-      <link>https://blog.dpritchett.net/posts/2013-04-19-whys-return/</link>
+      <link>https://dpritchett.github.io/posts/2013-04-19-whys-return/</link>
       <pubDate>Fri, 19 Apr 2013 01:43:05 +0000</pubDate>
       
-      <guid>https://blog.dpritchett.net/posts/2013-04-19-whys-return/</guid>
+      <guid>https://dpritchett.github.io/posts/2013-04-19-whys-return/</guid>
       <description>&amp;ldquo;If anyone wants to hook their actual printer up to _why’s queue (which I’m pretty sure is what he intended), iandennismiller transcribed the OCaml program in SPOOL/HOMEWORK which polls whytheluckystiff.net and sends the PCL files to your printer: https://github.com/cwales/cwales.github.com/pull/4
 It’s quite magical. I was woken up this morning by my printer, when the first pages were being published. Now every 5, 10, or 15 minutes my printer starts clanking away (it’s an old one) and a brand new page slowly emerges.</description>
     </item>

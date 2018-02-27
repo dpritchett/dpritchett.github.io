@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daemons on Daniel Pritchett: Blog</title>
-    <link>https://blog.dpritchett.net/tags/daemons/</link>
+    <link>https://dpritchett.github.io/tags/daemons/</link>
     <description>Recent content in Daemons on Daniel Pritchett: Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Jul 2013 17:48:10 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.dpritchett.net/tags/daemons/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dpritchett.github.io/tags/daemons/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Endless HTTParty retries in Ruby with a simple block</title>
-      <link>https://blog.dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</link>
+      <link>https://dpritchett.github.io/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</link>
       <pubDate>Tue, 09 Jul 2013 17:48:10 +0000</pubDate>
       
-      <guid>https://blog.dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</guid>
+      <guid>https://dpritchett.github.io/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</guid>
       <description>See also: A Ruby HOWTO: Writing A Method That Uses Code Blocks
 # Simple wrapper to allow retries for HTTP requests - prolongs daemon life. def with_http_retries(&amp;amp;block) begin yield rescue Errno::ECONNREFUSED, SocketError, Net::ReadTimeout DaemonKit.logger.error &amp;quot;Cannot reach [#{@service_url}]. Retrying in #{@retry_seconds} seconds.&amp;quot; sleep @retry_seconds retry end end # DRYing up the connection params @request_params = [@service_url, { headers: { &amp;quot;Authorization&amp;quot; =&amp;gt; &amp;quot;Token token=#{api_key}&amp;quot; }, timeout: 5 }] loop do response = with_http_retries { HTTParty.</description>
     </item>

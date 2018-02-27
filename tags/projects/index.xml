@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Daniel Pritchett: Blog</title>
-    <link>https://blog.dpritchett.net/tags/projects/</link>
+    <link>https://dpritchett.github.io/tags/projects/</link>
     <description>Recent content in Projects on Daniel Pritchett: Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Nov 2016 12:30:17 -0600</lastBuildDate>
     
-	<atom:link href="https://blog.dpritchett.net/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dpritchett.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The first rule of software projects</title>
-      <link>https://blog.dpritchett.net/posts/first-rule-of-software-projects/</link>
+      <link>https://dpritchett.github.io/posts/first-rule-of-software-projects/</link>
       <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
       
-      <guid>https://blog.dpritchett.net/posts/first-rule-of-software-projects/</guid>
+      <guid>https://dpritchett.github.io/posts/first-rule-of-software-projects/</guid>
       <description>Years of building software have convinced me of one very important mantra:
  If we had to ship tomorrow, we could.
  I came by this one the hard way. Remember that software folks are notorious optimists. This is an imprecise discipline we work with. Your six week project might turn into a four month project for perfectly valid reasons. Teams can run out of people or money for various reasons.</description>
