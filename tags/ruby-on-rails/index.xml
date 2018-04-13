@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ruby on Rails on Daniel Pritchett: Blog</title>
+    <title>Ruby on Rails on dpritchett.net</title>
     <link>https://dpritchett.net/tags/ruby-on-rails/</link>
-    <description>Recent content in Ruby on Rails on Daniel Pritchett: Blog</description>
+    <description>Recent content in Ruby on Rails on dpritchett.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Nov 2014 16:40:55 +0000</lastBuildDate>

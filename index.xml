@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daniel Pritchett: Blog</title>
+    <title>dpritchett.net</title>
     <link>https://dpritchett.net/</link>
-    <description>Recent content on Daniel Pritchett: Blog</description>
+    <description>Recent content on dpritchett.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Aug 2017 18:54:32 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 13 Apr 2018 07:20:06 -0500</lastBuildDate>
     
 	<atom:link href="https://dpritchett.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research Update: Serverless Computing, Kubernetes, Human Interfaces</title>
+      <link>https://dpritchett.net/posts/researching-serverless-computing/</link>
+      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/posts/researching-serverless-computing/</guid>
+      <description>I&amp;rsquo;ve gotten into a lot of research at work and at home. I&amp;rsquo;ll plant a little signpost here to start the log and then push out little updates as the research progresses.
+Lambdas and Serverless Functions I wrote more on this for the Clear Function blog at How Can Serverless Functions Help Your Systems?
+Here are some of the key quotes:
+ What’s so great about a serverless function?</description>
+    </item>
     
     <item>
       <title>Book update: meme generator chapter in progress</title>
@@ -121,12 +133,14 @@ It’s quite magical. I was woken up this morning by my printer, when the first 
     </item>
     
     <item>
-      <title>About The Blog</title>
+      <title>About</title>
       <link>https://dpritchett.net/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dpritchett.net/about/</guid>
-      <description>I build software to enable companies and individuals to do business online. Shoot me an email!</description>
+      <description>Hi there, I&amp;rsquo;m Daniel Pritchett. I helping companies build internet-first software for happy customers.
+I&amp;rsquo;m working on a book called Natural Language Chatbots: Create Responsive, Intuitive Interfaces in Ruby.
+Shoot me an email!</description>
     </item>
     
   </channel>

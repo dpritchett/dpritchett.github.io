@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Daniel Pritchett: Blog</title>
+    <title>Tags on dpritchett.net</title>
     <link>https://dpritchett.net/tags/</link>
-    <description>Recent content in Tags on Daniel Pritchett: Blog</description>
+    <description>Recent content in Tags on dpritchett.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Nov 2016 12:30:17 -0600</lastBuildDate>
@@ -17,6 +17,24 @@
       <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
       
       <guid>https://dpritchett.net/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chatbots</title>
+      <link>https://dpritchett.net/tags/chatbots/</link>
+      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/tags/chatbots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://dpritchett.net/tags/cloud/</link>
+      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/tags/cloud/</guid>
       <description></description>
     </item>
     
@@ -50,7 +68,7 @@
     <item>
       <title>Consulting</title>
       <link>https://dpritchett.net/tags/consulting/</link>
-      <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
+      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
       
       <guid>https://dpritchett.net/tags/consulting/</guid>
       <description></description>
@@ -62,6 +80,15 @@
       <pubDate>Tue, 09 Jul 2013 17:48:10 +0000</pubDate>
       
       <guid>https://dpritchett.net/tags/daemons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>https://dpritchett.net/tags/devops/</link>
+      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/tags/devops/</guid>
       <description></description>
     </item>
     
@@ -183,6 +210,15 @@
     </item>
     
     <item>
+      <title>Research</title>
+      <link>https://dpritchett.net/tags/research/</link>
+      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ruby</title>
       <link>https://dpritchett.net/tags/ruby/</link>
       <pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
@@ -210,9 +246,18 @@
     </item>
     
     <item>
+      <title>Serverless</title>
+      <link>https://dpritchett.net/tags/serverless/</link>
+      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shipping</title>
       <link>https://dpritchett.net/tags/shipping/</link>
-      <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
+      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
       
       <guid>https://dpritchett.net/tags/shipping/</guid>
       <description></description>
@@ -242,6 +287,15 @@
       <pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
       
       <guid>https://dpritchett.net/tags/spree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sre</title>
+      <link>https://dpritchett.net/tags/sre/</link>
+      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/tags/sre/</guid>
       <description></description>
     </item>
     

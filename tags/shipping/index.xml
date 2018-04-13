@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shipping on Daniel Pritchett: Blog</title>
+    <title>Shipping on dpritchett.net</title>
     <link>https://dpritchett.net/tags/shipping/</link>
-    <description>Recent content in Shipping on Daniel Pritchett: Blog</description>
+    <description>Recent content in Shipping on dpritchett.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Nov 2016 12:30:17 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 13 Apr 2018 07:20:06 -0500</lastBuildDate>
     
 	<atom:link href="https://dpritchett.net/tags/shipping/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research Update: Serverless Computing, Kubernetes, Human Interfaces</title>
+      <link>https://dpritchett.net/posts/researching-serverless-computing/</link>
+      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/posts/researching-serverless-computing/</guid>
+      <description>I&amp;rsquo;ve gotten into a lot of research at work and at home. I&amp;rsquo;ll plant a little signpost here to start the log and then push out little updates as the research progresses.
+Lambdas and Serverless Functions I wrote more on this for the Clear Function blog at How Can Serverless Functions Help Your Systems?
+Here are some of the key quotes:
+ What’s so great about a serverless function?</description>
+    </item>
     
     <item>
       <title>The first rule of software projects</title>
