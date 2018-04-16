@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://dpritchett.net/posts/hearing-aids-are-cool/</loc>
+    <lastmod>2017-09-03T10:22:25-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/posts/chatbot-book-update/</loc>
     <lastmod>2017-08-13T18:54:32-05:00</lastmod>
   </url>
@@ -73,6 +78,12 @@
   </url>
   
   <url>
+    <loc>https://dpritchett.net/tags/bluetooth/</loc>
+    <lastmod>2017-09-03T10:22:25-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/categories/</loc>
     <priority>0</priority>
   </url>
@@ -126,6 +137,12 @@
   </url>
   
   <url>
+    <loc>https://dpritchett.net/tags/diversity/</loc>
+    <lastmod>2017-09-03T10:22:25-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/tags/ecommerce/</loc>
     <lastmod>2014-11-19T16:40:55+00:00</lastmod>
     <priority>0</priority>
@@ -152,6 +169,18 @@
   <url>
     <loc>https://dpritchett.net/tags/golang/</loc>
     <lastmod>2013-05-13T15:00:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dpritchett.net/tags/hardware/</loc>
+    <lastmod>2017-09-03T10:22:25-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dpritchett.net/tags/hearing-aids/</loc>
+    <lastmod>2017-09-03T10:22:25-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -193,7 +222,7 @@
   
   <url>
     <loc>https://dpritchett.net/tags/programming/</loc>
-    <lastmod>2014-06-18T13:53:10+00:00</lastmod>
+    <lastmod>2017-09-03T10:22:25-05:00</lastmod>
     <priority>0</priority>
   </url>
   
