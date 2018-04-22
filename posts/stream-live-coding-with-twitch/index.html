@@ -1,0 +1,193 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>dpritchett.net</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Notes on building cloud software and systems. Written by Daniel Pritchett." />
+  <meta name="author" content="Daniel Pritchett" />
+  <meta name="generator" content="Hugo 0.37" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="https://dpritchett.net/css/styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="https://dpritchett.net/">dpritchett.net</a>
+            </h1>
+
+      <ul id="social-media">
+        
+        <li><a href="https://twitter.com/dpritchett"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://www.linkedin.com/in/danielpritchett"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://github.com/dpritchett"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+      </ul>
+      
+      <p><em>Notes on building cloud software and systems. Written by Daniel Pritchett.</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://dpritchett.net/about/">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Stream Live Coding With Twitch</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2018-04-22T13:13:00-05:00">Apr 22, 2018</time>
+        </li>
+        
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="https://dpritchett.net/tags/coding/">#coding</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/streaming/">#streaming</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/twitch/">#twitch</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/livecoding/">#livecoding</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/media/">#media</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/content/">#content</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/howto/">#howto</a>
+                
+            </em>
+        </li>
+        
+
+        <li>5 min read</li>
+    </ul>
+</aside>
+    
+
+    
+
+<h2 id="why-livestream">Why Livestream?</h2>
+
+<figure>
+<img alt="Overview of the pritchettbots Twitch channel" src="https://dpritchett.net/images/twitch/twitch-channel-view.png" >
+<figcaption>
+  <em>So far Twitch streaming's gotten a good 50 people to check out this book project.</em>
+</figcaption>
+</figure>
+
+<p>Livestreaming seems primarily popular among gamers but there is a growing niche for programming-oriented livestreams. I&rsquo;m more into programming than gaming at this point in my life, so that&rsquo;s what I&rsquo;m streaming. Returning readers will already know about my upcoming book for the <a href="https://pragprog.com/">Pragmatic Programmers</a> publishing company on chatbots. The working title is <em>Natural Language Chatbots: Create Responsive, Intuitive Interfaces in Ruby</em>.</p>
+
+<h3 id="some-quick-background-on-live-streams">Some quick background on live streams</h3>
+
+<p>Livestreaming is an incredibly popular and steadily growing media channel. From the <sup>24</sup>&frasl;<sub>7</sub> webcams of <a href="https://en.wikipedia.org/wiki/Jennifer_Ringley">Jenni</a> and <a href="https://en.wikipedia.org/wiki/Justin_Kan">Justin</a> in decades past to the multimillion dollar streamers of today, the industry continues to expand and evolve.</p>
+
+<p>My daughter Leila and her elementatry-aged friends have been watching <a href="https://www.youtube.com/user/stacyplays">Minecraft streamers on YouTube</a> for years now. Most of these videos are watched after the fact but YouTube does have a livestreaming product.</p>
+
+<h2 id="how-should-i-stream">How should I stream?</h2>
+
+<p>I recommend <a href="http://twitch.tv/">Twitch.tv</a> over YouTube if you are trying to get some immediate uptake and community participation, especially if making money off of the stream is not a primary consideration. Twitch is clearly built around live participation first and foremost, and that&rsquo;s just the vibe I&rsquo;m going for.</p>
+
+<p>My only reservation with Twitch right now is that I can&rsquo;t figure out how long if at all my back catalog will stay online before being deleted. If you&rsquo;re really looking to build up a huge library of related content, something like YouTube is likely more suitable. you can find some popular YouTube Live streams in the Kubernetes space - I know <a href="https://twitter.com/hashtag/tgik8s?lang=en">Joe and Kris from Heptio are into it</a> and they seem to have an audience.</p>
+
+<p>I&rsquo;ve also seen team <a href="https://github.com/probot/probot">Probot</a> at GitHub running a Zoom.us chat that allows a few handsful of folks to chat face to face weekly.</p>
+
+<h3 id="which-tools-do-i-need">Which tools do I need?</h3>
+
+<p>I&rsquo;ve gotten started with an open source streaming tool called <a href="https://obsproject.com/">Open Broadcaster Software</a>. So far I&rsquo;ve been able to stream microphone input for live commentary, my computer&rsquo;s audio out for background music, desktop video capture to show the work I&rsquo;m doing (including this blog post!), and a picture-in-picture webcam view of my face while I&rsquo;m working. All of this pretty much works out of the box on OSX with OBS, but it did take a bit of digging. The only extra software I&rsquo;ve needed was a <a href="https://lofi-gaming.org.uk/blog/2016/09/17/capture-mac-desktop-audio-obs/">software audio driver</a> that allows the mixing of the microphone with the regular audio in a single stream.</p>
+
+<h3 id="what-s-a-good-routine-for-making-the-stream-engaging">What&rsquo;s a good routine for making the stream engaging?</h3>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Had a record 8 concurrent viewers on tonight&#39;s live coding stream! Hope you enjoyed watching me headscratch my way through some awkward library + test juxtapositions in Ruby. Next time maybe we&#39;ll throw in some gags ;)<br><br>🤖🤖🤖<br><br>thanks <a href="https://twitter.com/Syliddar?ref_src=twsrc%5Etfw">@Syliddar</a> <a href="https://twitter.com/lothbrek?ref_src=twsrc%5Etfw">@lothbrek</a> <a href="https://twitter.com/Jabrown85?ref_src=twsrc%5Etfw">@Jabrown85</a> and others 🤗</p>&mdash; Daniel Pritchett (@DPritchett) <a href="https://twitter.com/DPritchett/status/987556131869425665?ref_src=twsrc%5Etfw">April 21, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>I&rsquo;m still feeling this one out, but here&rsquo;s what&rsquo;s working so far:</p>
+
+<ul>
+<li><strong>Post an agenda in the corner of the screen with a sticky note</strong>. That way viewers know what they&rsquo;re in for even if they jump in mid-stream.</li>
+<li><strong>Promote the stream a few minutes before you go live</strong> on Twitter, Slack, and anywhere you might know folks who share your interests. You&rsquo;ll be surprised who wants to see how you work or just follow along for fun.</li>
+<li><strong>Acknowledge invidiual viewers where possible</strong>. Twitch lets you confer channel mod powers on any registered viewer you trust. This is a simple token of respect and appreciation your loyal viewers will enjoy. Say hi and chat with them where possible.</li>
+<li><strong>Publish post-show notes and thank-yous</strong> in the same places you published the pre-show announcements. I&rsquo;m posting follow-up tweets to the original &ldquo;going live in 5&rdquo; announcements to keep up the visible reminders of my stream so folks know it&rsquo;s there for them. I also try to personally thank anyone I recognized on the stream in my post-show tweets.</li>
+<li><strong>Plan your stream where possible so as to avoid slow spots</strong>. My primary streaming activity right now is writing my book. This means alternating sessions of exploratory programming, testing, refactoring, and writing book chapters to teach other folks how to do the things I&rsquo;ve just figured out. You can imagine how this process gets slow now and then. I&rsquo;m finding it helps to be sure to do something exploratory with a bit of tension to it every few streams rather than just bearing down on the writing process ten days in a row.</li>
+</ul>
+
+<p>A quick note on background music and copyrights: Twitch will automatically detect RIAA-fingerprinted music and mute it in your recordings. This doesn&rsquo;t seem to bother folks whose primary audience is live, but if you are planning to get something out of your back catalog then be sure and only play music that&rsquo;s not likely to be muted. I&rsquo;ve been playing European techno stuff from <a href="di.fm">di.fm</a> and it&rsquo;s worked so far. The one bad experience I had was super popular turn-of-the-century rock on Spotify &mdash; that stuff was detected and killed immediately. It looks like Twitch and Spotify have a few curated playlists of &ldquo;RIAA promises not to sue you if you listen to this&rdquo; music but I&rsquo;ve not bothered yet.</p>
+
+<h2 id="subscribe-do-be-notified-next-time-i-go-live">Subscribe do be notified next time I go live :)</h2>
+
+<p>You can sign up for a Twitch account and then follow my <a href="https://www.twitch.tv/pritchettbots">PritchettBots</a> channel to get notifications whenever I go live. So far I&rsquo;ve noticed a few buds signing on shortly after I start to stream - they&rsquo;re likely getting mobile push notices from me.</p>
+
+<p>If you&rsquo;re not already following on Twitter, say hi <a href="https://twitter.com/DPritchett">@dpritchett</a> and I&rsquo;d love to hear about your own streaming experiences.</p>
+
+<p>Thank you for reading!</p>
+
+<p>Daniel</p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://dpritchett.net/posts/researching-serverless-computing/"><i class="fa fa-chevron-circle-left"></i> Research Update: Serverless Computing, Kubernetes, Human Interfaces</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6> | 
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://dpritchett.netindex.xml">Subscribe</a></h6>
+    </footer>
+</div>
+<script src="https://dpritchett.net/js/scripts.js"></script>
+</body>
+
+</html>
