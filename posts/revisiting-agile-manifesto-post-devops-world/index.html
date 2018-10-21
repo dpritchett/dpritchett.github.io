@@ -1,0 +1,273 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>dpritchett.net</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Notes on building cloud software and systems. Written by Daniel Pritchett." />
+  <meta name="author" content="Daniel Pritchett" />
+  <meta name="generator" content="Hugo 0.40.1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="https://dpritchett.net/css/styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="https://dpritchett.net/">dpritchett.net</a>
+            </h1>
+
+      <ul id="social-media">
+        
+        <li><a href="https://twitter.com/dpritchett"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://www.linkedin.com/in/danielpritchett"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://github.com/dpritchett"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+      </ul>
+      
+      <p><em>Notes on building cloud software and systems. Written by Daniel Pritchett.</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://dpritchett.net/about/">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://dpritchett.net/twitch/">
+                <i class="fa-li fa  fa-lg"></i><span>Twitch Livestream</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Revisiting the Agile Manifesto in a Post-DevOps World</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2018-10-21T14:43:18-05:00">Oct 21, 2018</time>
+        </li>
+        
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="https://dpritchett.net/tags/agile/">#agile</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/agile-manifesto/">#agile manifesto</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/continuous-delivery/">#continuous delivery</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/cloud-native/">#cloud native</a>
+                
+            </em>
+        </li>
+        
+
+        <li>7 min read</li>
+    </ul>
+</aside>
+    
+
+    
+
+<h2 id="agile-in-the-age-of-serverless-cloud-native-and-continuous-delivery">Agile in the age of serverless, &ldquo;cloud native&rdquo;, and continuous delivery</h2>
+
+<p>I&rsquo;ve been reading through a bunch of lean manufacturing and DevOps literature recently, namely <a href="https://smile.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884270610?sa-no-redirect=1"><em>The Goal</em></a>, <a href="https://smile.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B078Y98RG8/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1540154499&amp;sr=1-1&amp;keywords=phoenix+project"><em>The Phoenix Project</em></a> (again!), and now <a href="https://smile.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/ref=sr_1_4?s=books&amp;ie=UTF8&amp;qid=1540154527&amp;sr=1-4&amp;keywords=continuous+delivery&amp;dpID=51NbiDn81NL&amp;preST=_SX218_BO1,204,203,200_QL40_&amp;dpSrc=srch"><em>Continuous Delivery</em></a>. <a href="http://agilemanifesto.org/">The Agile Manifesto</a> is referred to a good bit in the latter two texts, and it&rsquo;s gotten me wondering how well the seventeen-year old chestnuts hold up.</p>
+
+<p>Taken as a whole, the manifesto feels timeless and every bit as relevant as it was at the dawn of this new century. At the margins though &mdash; there are spots where the advice falls short of what can really inspire growth in today&rsquo;s landscape. Let&rsquo;s walk through <a href="http://agilemanifesto.org/principles.html">the twelve principles</a> one by one and see how they feel here in 2018:</p>
+
+<blockquote>
+<p>We follow these principles:</p>
+</blockquote>
+
+<h3 id="1-our-highest-priority">1. &ldquo;Our highest priority&rdquo;</h3>
+
+<blockquote>
+<p>Our highest priority is to satisfy the customer
+through early and continuous delivery
+of valuable software.</p>
+</blockquote>
+
+<p>No complaints here - minimizing time from (valuable) idea to delivery to the customer is still arguably the highest virtue in software engineering.</p>
+
+<h3 id="2-welcome-changing-requirements">2. &ldquo;Welcome changing requirements&rdquo;</h3>
+
+<blockquote>
+<p>Welcome changing requirements, even late in
+development. Agile processes harness change for
+the customer&rsquo;s competitive advantage.</p>
+</blockquote>
+
+<p>Another perfect principle! This one tends to be overlooked in more formal big-a Agile setups like the typical Scrum team. The older your plan is, the farther its presumptions are from reality. Stay lean, keep your head up, be ready to change direction at the story, team, and company level as frequently as necessary. Minimize your cycle times from top to bottom and you&rsquo;ll be glad you did.</p>
+
+<h3 id="3-deliver-working-software-frequently">3. &ldquo;Deliver working software frequently&rdquo;</h3>
+
+<blockquote>
+<p>Deliver working software frequently, from a
+couple of weeks to a couple of months, with a
+preference to the shorter timescale.</p>
+</blockquote>
+
+<p>Starting to feel a bit outdated here. Framing &ldquo;a couple of weeks&rdquo; as the idealized low end of releazse frequency is <em>seriously</em> outdated in a world of cloud-first web software. Let&rsquo;s try &ldquo;a couple of minutes to a couple of days&rdquo; instead. There may be reasons not to deploy everything immediately <sup>24</sup>&frasl;<sub>7</sub>, but they should be viewed as exceptions (say, for safety-critical software) rather than standard procedure.</p>
+
+<h3 id="4-business-people-and-developers-must-work-together">4. &ldquo;Business people and developers must work together&rdquo;</h3>
+
+<blockquote>
+<p>Business people and developers must work
+together daily throughout the project.</p>
+</blockquote>
+
+<p>Ok, sure. We <em>should</em> be working together every day. The big question mark here is why we are even separating &ldquo;business people&rdquo; from &ldquo;developers&rdquo;. Every successful software project I&rsquo;ve ever worked on involved developers with a keen sense for business and customer needs. Separating &ldquo;business&rdquo; from &ldquo;developer&rdquo; like this is really a questionable foundation for a sucessful collaboration.</p>
+
+<h3 id="5-build-around-motivated-individuals">5. &ldquo;Build around motivated individuals&rdquo;</h3>
+
+<blockquote>
+<p>Build projects around motivated individuals.
+Give them the environment and support they need,
+and trust them to get the job done.</p>
+</blockquote>
+
+<p>Oh yeah, definitely. If the people writing checks don&rsquo;t trust their engineering service providers to do right by them, no one&rsquo;s going to be happy at the end of the project. Look out for this as an early red flag (on either side!) and address it head-on. Don&rsquo;t be afraid to walk away if it&rsquo;s irreconcilable. Don&rsquo;t micromanage.</p>
+
+<p>Organize your teams using the principles of <a href="https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs-ebook/dp/B0739PYQSS">Extreme Ownership</a> and you won&rsquo;t regret it. This is &ldquo;Decentralize Command&rdquo; and it&rsquo;s incredibly important for building and maintaining high-performance engineering organizations.</p>
+
+<h3 id="6-face-to-face-is-most-efficient">6. &ldquo;Face to face is most efficient&rdquo;</h3>
+
+<blockquote>
+<p>The most efficient and effective method of
+conveying information to and within a development
+team is face-to-face conversation.</p>
+</blockquote>
+
+<p>This is true inasmuch as in person communication is the highest bandwidth medium. Don&rsquo;t be afraid to buy a plane ticket if it&rsquo;s what you have to do to save a project. Beyond that though, don&rsquo;t take this as an endorsement of open plan offices. Pairing is great, deliberately run meetings are great. Giving folks room to think and work is also key, and it doesn&rsquo;t have to be subordinated to an &ldquo;face-to-face all the time&rdquo; strategy.</p>
+
+<h3 id="7-working-software">7. &ldquo;Working software&rdquo;</h3>
+
+<blockquote>
+<p>Working software is the primary measure of progress.</p>
+</blockquote>
+
+<p>Yes! As a side note, the more time you have between committing a line of code and seeing it live in production, the more waste you have in your process. You can&rsquo;t actually code all day every day and have it all in production instantaneously, but you should continually strive to get as close as possible.</p>
+
+<h3 id="8-promote-sustainable-development">8. &ldquo;Promote sustainable development&rdquo;</h3>
+
+<blockquote>
+<p>Agile processes promote sustainable development.
+The sponsors, developers, and users should be able
+to maintain a constant pace indefinitely.</p>
+</blockquote>
+
+<p>This is impossible to overstate. In an at-will employment environment, no one is going to stay around very long once things get unhealthy. As a leader you must constantly be vigilant and proactive regarding team member empowerment, health, and growth. Once you take your eyes off the long-term health of your contributors, you go from continuous improvement to continous degradation. Sure, you&rsquo;ll have to make a short-term sacrfice here or there, but never forget the ultimate cost of pushing short-term problems onto your clients, your team members, and their families. <strong>They</strong> certainly won&rsquo;t forget.</p>
+
+<h3 id="9-technical-excellence-and-good-design">9. &ldquo;Technical excellence and good design&rdquo;</h3>
+
+<blockquote>
+<p>Continuous attention to technical excellence
+and good design enhances agility.</p>
+</blockquote>
+
+<p>This is a timeless principle, and it undersells a key point. The natural state of things is to fall apart. As your team builds out systems and features, bitrot and technical debt creep in EVERY DAY. We must constantly clean our workspaces, sharpen our tools, and seek out the next major improvement in our workflow to stay relevant and successful.</p>
+
+<p>Don&rsquo;t believe me? Check out the <a href="https://chem.libretexts.org/Textbook_Maps/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/The_Four_Laws_of_Thermodynamics/Second_Law_of_Thermodynamics">second law of thermodynamics</a>: &ldquo;The second law also states that the changes in the entropy in the universe can never be negative.&rdquo;</p>
+
+<h3 id="10-maximizing-the-amount-of-work-not-done">10. &ldquo;Maximizing the amount of work not done&rdquo;</h3>
+
+<blockquote>
+<p>Simplicity&ndash;the art of maximizing the amount
+of work not done&ndash;is essential.</p>
+</blockquote>
+
+<p>Yes!!! This point ties in very closely with #2 (Welcome changing requirements). In practice, this means that your one- and two-week long plans are regularly found to be inaccurate along the way. Rather than fight about it, embrace the change and gleefully pivot when you discover a way to discard the majority of the scope of your current action item. <strong>Aim to solve for the business need, not for the written requirement</strong>. When your teammates find a way to defer or outright skip a bunch of lower-value work, thank them!</p>
+
+<h3 id="11-self-organizing-teams">11. &ldquo;Self-organizing teams&rdquo;</h3>
+
+<blockquote>
+<p>The best architectures, requirements, and designs
+emerge from self-organizing teams.</p>
+</blockquote>
+
+<p>This builds directly on many of the earlier principles. If your highest goal is to ship good software on a quick schedule, if you&rsquo;re looking to have technical excellence, business+engineering collaboration, sustainable processes, and motivated contributors: Give them a goal, give them support and some psychological safety, and step out of the way. <strong>Job titles and requirements documents are secondary to a maintaining a fully engaged team creating incredible work</strong>.</p>
+
+<h3 id="12-plan-do-study-act">12. &ldquo;Plan, do, study, act&rdquo;</h3>
+
+<blockquote>
+<p>At regular intervals, the team reflects on how
+to become more effective, then tunes and adjusts
+its behavior accordingly.</p>
+</blockquote>
+
+<p>&ldquo;Plan, Do, Study, Act&rdquo; &mdash; known as the <a href="https://deming.org/explore/p-d-s-a">Deming Cycle</a> &mdash; is the one practice that holds the rest of the agile principles together. Each idea-to-delivery cycle denotes an opportunity and an obligation to track the organization&rsquo;s effectiveness, quality, engagement, and satisfaction levels with the entire software process. Set yourself up for success with short cycles and be sure to solicit advice from <em>everyone</em> who has a hand in the software process. You&rsquo;ll be fighting against entropy and technical debt and miscommunications and stale plans your entire career. Better get used to it.</p>
+
+<h2 id="scorecard">Scorecard</h2>
+
+<p>So how <em>does</em> the Agile Manifesto hold up in 2018?</p>
+
+<p><strong>Evergreen</strong>: Numbers 1, 2, 5, and 7-12.</p>
+
+<p><strong>A mite stale</strong>: Number 3 - release times can be so much shorter now than they could twenty years ago. Let&rsquo;s agree to never give up on compressing our release cycles.</p>
+
+<p><strong>Solid, but clarifications are in order</strong>: Number #4 and 6. Collaboration is key and face to face contact is irreplaceable, but challenge yourself and your organization to experiment, personalize, and improve on these principles for themselves.</p>
+
+<p>I think we can agree that the Agile Manifesto is every bit as relevant in 2018 as it was in 2001. Let&rsquo;s get together in twenty years to go over this again!</p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://dpritchett.net/posts/stream-live-coding-with-twitch/"><i class="fa fa-chevron-circle-left"></i> Stream Live Coding With Twitch</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6> | 
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://dpritchett.netindex.xml">Subscribe</a></h6>
+    </footer>
+</div>
+<script src="https://dpritchett.net/js/scripts.js"></script>
+</body>
+
+</html>

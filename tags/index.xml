@@ -6,7 +6,7 @@
     <description>Recent content in Tags on dpritchett.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Nov 2016 12:30:17 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 21 Oct 2018 14:43:18 -0500</lastBuildDate>
     
 	<atom:link href="https://dpritchett.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Agile</title>
       <link>https://dpritchett.net/tags/agile/</link>
-      <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
+      <pubDate>Sun, 21 Oct 2018 14:43:18 -0500</pubDate>
       
       <guid>https://dpritchett.net/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agile Manifesto</title>
+      <link>https://dpritchett.net/tags/agile-manifesto/</link>
+      <pubDate>Sun, 21 Oct 2018 14:43:18 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/tags/agile-manifesto/</guid>
       <description></description>
     </item>
     
@@ -44,6 +53,15 @@
       <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
       
       <guid>https://dpritchett.net/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Native</title>
+      <link>https://dpritchett.net/tags/cloud-native/</link>
+      <pubDate>Sun, 21 Oct 2018 14:43:18 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/tags/cloud-native/</guid>
       <description></description>
     </item>
     
@@ -98,6 +116,15 @@
       <pubDate>Sun, 22 Apr 2018 13:13:00 -0500</pubDate>
       
       <guid>https://dpritchett.net/tags/content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous Delivery</title>
+      <link>https://dpritchett.net/tags/continuous-delivery/</link>
+      <pubDate>Sun, 21 Oct 2018 14:43:18 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/tags/continuous-delivery/</guid>
       <description></description>
     </item>
     
