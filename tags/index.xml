@@ -39,9 +39,18 @@
     </item>
     
     <item>
+      <title>Book</title>
+      <link>https://dpritchett.net/tags/book/</link>
+      <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
+      
+      <guid>https://dpritchett.net/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chatbots</title>
       <link>https://dpritchett.net/tags/chatbots/</link>
-      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
+      <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
       
       <guid>https://dpritchett.net/tags/chatbots/</guid>
       <description></description>
@@ -293,7 +302,7 @@
     <item>
       <title>Programming</title>
       <link>https://dpritchett.net/tags/programming/</link>
-      <pubDate>Sun, 03 Sep 2017 10:22:25 -0500</pubDate>
+      <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
       
       <guid>https://dpritchett.net/tags/programming/</guid>
       <description></description>
@@ -449,6 +458,15 @@
       <pubDate>Fri, 19 Apr 2013 01:43:05 +0000</pubDate>
       
       <guid>https://dpritchett.net/tags/whytheluckystiff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://dpritchett.net/tags/writing/</link>
+      <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
+      
+      <guid>https://dpritchett.net/tags/writing/</guid>
       <description></description>
     </item>
     

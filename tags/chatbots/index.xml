@@ -6,10 +6,20 @@
     <description>Recent content in Chatbots on dpritchett.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Apr 2018 07:20:06 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jan 2019 14:33:00 -0600</lastBuildDate>
     
 	<atom:link href="https://dpritchett.net/tags/chatbots/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chatbot Book Available to Order Today!</title>
+      <link>https://dpritchett.net/posts/chatbot-book-available-to-order/</link>
+      <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
+      
+      <guid>https://dpritchett.net/posts/chatbot-book-available-to-order/</guid>
+      <description>I just shipped the first draft of my multi-year book project a few weeks ago and the beta release is available for download now! Check it out and give me a shout 😃
+Build Chatbot Interactions: Responsive, Intuitive Interfaces with Ruby  </description>
+    </item>
     
     <item>
       <title>Research Update: Serverless Computing, Kubernetes, Human Interfaces</title>

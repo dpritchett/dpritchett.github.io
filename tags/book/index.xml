@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on dpritchett.net</title>
+    <link>https://dpritchett.net/tags/book/</link>
+    <description>Recent content in Book on dpritchett.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jan 2019 14:33:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://dpritchett.net/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chatbot Book Available to Order Today!</title>
+      <link>https://dpritchett.net/posts/chatbot-book-available-to-order/</link>
+      <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
+      
+      <guid>https://dpritchett.net/posts/chatbot-book-available-to-order/</guid>
+      <description>I just shipped the first draft of my multi-year book project a few weeks ago and the beta release is available for download now! Check it out and give me a shout 😃
+Build Chatbot Interactions: Responsive, Intuitive Interfaces with Ruby  </description>
+    </item>
+    
+  </channel>
+</rss>

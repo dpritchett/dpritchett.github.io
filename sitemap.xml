@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dpritchett.net/posts/chatbot-book-available-to-order/</loc>
+    <lastmod>2019-01-23T14:33:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/posts/revisiting-agile-manifesto-post-devops-world/</loc>
     <lastmod>2018-10-21T14:43:18-05:00</lastmod>
   </url>
@@ -100,13 +105,19 @@
   </url>
   
   <url>
+    <loc>https://dpritchett.net/tags/book/</loc>
+    <lastmod>2019-01-23T14:33:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dpritchett.net/tags/chatbots/</loc>
-    <lastmod>2018-04-13T07:20:06-05:00</lastmod>
+    <lastmod>2019-01-23T14:33:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -274,13 +285,13 @@
   
   <url>
     <loc>https://dpritchett.net/posts/</loc>
-    <lastmod>2018-10-21T14:43:18-05:00</lastmod>
+    <lastmod>2019-01-23T14:33:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dpritchett.net/tags/programming/</loc>
-    <lastmod>2017-09-03T10:22:25-05:00</lastmod>
+    <lastmod>2019-01-23T14:33:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -397,6 +408,12 @@
   </url>
   
   <url>
+    <loc>https://dpritchett.net/tags/writing/</loc>
+    <lastmod>2019-01-23T14:33:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/tags/xp/</loc>
     <lastmod>2016-11-21T12:30:17-06:00</lastmod>
     <priority>0</priority>
@@ -404,7 +421,7 @@
   
   <url>
     <loc>https://dpritchett.net/</loc>
-    <lastmod>2018-10-21T14:43:18-05:00</lastmod>
+    <lastmod>2019-01-23T14:33:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
