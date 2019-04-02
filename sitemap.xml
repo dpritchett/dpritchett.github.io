@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dpritchett.net/posts/reading-list-for-early-career-engineers/</loc>
+    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/posts/chatbot-book-available-to-order/</loc>
     <lastmod>2019-01-23T14:33:00-06:00</lastmod>
   </url>
@@ -111,6 +116,12 @@
   </url>
   
   <url>
+    <loc>https://dpritchett.net/tags/books/</loc>
+    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/categories/</loc>
     <priority>0</priority>
   </url>
@@ -206,6 +217,12 @@
   </url>
   
   <url>
+    <loc>https://dpritchett.net/tags/engineering/</loc>
+    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/tags/fortune/</loc>
     <lastmod>2013-05-13T15:00:05+00:00</lastmod>
     <priority>0</priority>
@@ -266,6 +283,12 @@
   </url>
   
   <url>
+    <loc>https://dpritchett.net/tags/mentoring/</loc>
+    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/tags/neo4j/</loc>
     <lastmod>2014-11-19T16:40:55+00:00</lastmod>
     <priority>0</priority>
@@ -285,7 +308,7 @@
   
   <url>
     <loc>https://dpritchett.net/posts/</loc>
-    <lastmod>2019-01-23T14:33:00-06:00</lastmod>
+    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -304,6 +327,12 @@
   <url>
     <loc>https://dpritchett.net/tags/rails/</loc>
     <lastmod>2014-02-27T18:49:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dpritchett.net/tags/reading/</loc>
+    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -421,7 +450,7 @@
   
   <url>
     <loc>https://dpritchett.net/</loc>
-    <lastmod>2019-01-23T14:33:00-06:00</lastmod>
+    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
     <priority>0</priority>
   </url>
   
