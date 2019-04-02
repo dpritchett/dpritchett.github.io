@@ -209,6 +209,12 @@
   </url>
   
   <url>
+    <loc>https://dpritchett.net/</loc>
+    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dpritchett.net/tags/devops/</loc>
     <lastmod>2018-04-13T07:20:06-05:00</lastmod>
     <priority>0</priority>
@@ -475,12 +481,6 @@
   <url>
     <loc>https://dpritchett.net/tags/xp/</loc>
     <lastmod>2016-11-21T12:30:17-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dpritchett.net/</loc>
-    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
     <priority>0</priority>
   </url>
   

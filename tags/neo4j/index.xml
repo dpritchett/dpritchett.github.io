@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Neo4j on dpritchett.net</title>
+    <title>Neo4j on Daniel Pritchett</title>
     <link>https://dpritchett.net/tags/neo4j/</link>
-    <description>Recent content in Neo4j on dpritchett.net</description>
+    <description>Recent content in Neo4j on Daniel Pritchett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Nov 2014 16:40:55 +0000</lastBuildDate>
