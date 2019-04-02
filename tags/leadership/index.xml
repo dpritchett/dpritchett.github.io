@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leadership on dpritchett.net</title>
+    <link>https://dpritchett.net/tags/leadership/</link>
+    <description>Recent content in Leadership on dpritchett.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Apr 2019 09:32:05 -0500</lastBuildDate>
+    
+	<atom:link href="https://dpritchett.net/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reading List for Early Career Engineers</title>
+      <link>https://dpritchett.net/posts/reading-list-for-early-career-engineers/</link>
+      <pubDate>Tue, 02 Apr 2019 09:32:05 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/posts/reading-list-for-early-career-engineers/</guid>
+      <description>For the past few years I&amp;rsquo;ve been lucky enough to get to work with #VetsWhoCode, a nonprofit dedicated to training and supporting veterans in transitioning to careers as civilian technologists. Talking with a current mentoring partner has had me suggesting an unreasonable number of interesting books. Each of the books we read help us become better, more capable people but no one&amp;rsquo;s going to have time to read all the books I&amp;rsquo;ve read &amp;mdash; you&amp;rsquo;ve got your own life to live!</description>
+    </item>
+    
+  </channel>
+</rss>
