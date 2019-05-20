@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memes on Daniel Pritchett</title>
+    <link>https://dpritchett.net/tags/memes/</link>
+    <description>Recent content in Memes on Daniel Pritchett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Aug 2017 18:54:32 -0500</lastBuildDate>
+    
+	<atom:link href="https://dpritchett.net/tags/memes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book update: meme generator chapter in progress</title>
+      <link>https://dpritchett.net/posts/chatbot-book-update/</link>
+      <pubDate>Sun, 13 Aug 2017 18:54:32 -0500</pubDate>
+      
+      <guid>https://dpritchett.net/posts/chatbot-book-update/</guid>
+      <description>Been a fun Sunday afternoon working on my chat bots book. Here&amp;#39;s a sneak preview. I may demo this section at @southeastruby - come say hi! pic.twitter.com/rrZ9aWIg1i
+&amp;mdash; Daniel Pritchett (@DPritchett) August 13, 2017</description>
+    </item>
+    
+  </channel>
+</rss>
