@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Chatbot Book Available to Order Today!</title>
+      <title>Build Chatbot Interactions Available to Order Today!</title>
       <link>https://dpritchett.net/posts/chatbot-book-available-to-order/</link>
       <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
       
@@ -67,9 +67,7 @@ Here are some of the key quotes:
       <pubDate>Sun, 03 Sep 2017 10:22:25 -0500</pubDate>
       
       <guid>https://dpritchett.net/posts/hearing-aids-are-cool/</guid>
-      <description>&lt;p&gt;Personal story time! I&amp;rsquo;ve been wearing hearing aids since the 3rd grade. My folks drove me down to Florida State University to get a hearing test and a fitting for some new aids. I lost one of my first pairs in a cardboard box in a cabin in the woods and my parents didn&amp;rsquo;t even kill me. In the intervening 30 years I&amp;rsquo;ve been through a few sets of aids. My first few sets were &lt;a href=&#34;https://www.google.com/search?tbm=isch&amp;amp;amp;q=itc+hearing+aids&#34;&gt;in-the-canal&lt;/a&gt; (ITC) aids. My current set is a behind-the-ear (BTE) set.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Personal story time! I&amp;rsquo;ve been wearing hearing aids since the 3rd grade. My folks drove me down to Florida State University to get a hearing test and a fitting for some new aids. I lost one of my first pairs in a cardboard box in a cabin in the woods and my parents didn&amp;rsquo;t even kill me. In the intervening 30 years I&amp;rsquo;ve been through a few sets of aids. My first few sets were &lt;a href=&#34;https://www.google.com/search?tbm=isch&amp;amp;amp;q=itc+hearing+aids&#34;&gt;in-the-canal&lt;/a&gt; (ITC) aids. My current set is a behind-the-ear (BTE) set.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -153,20 +151,20 @@ Pasting yanked text into the command input Yank a word (e.g. yw to yank the word
     
     <item>
       <title>Fortune in Golang - Proof of Concept</title>
-      <link>https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</link>
+      <link>https://dpritchett.net/posts/2013-05-13-fortune-in-golang-proof-of-concept/</link>
       <pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
       
-      <guid>https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</guid>
+      <guid>https://dpritchett.net/posts/2013-05-13-fortune-in-golang-proof-of-concept/</guid>
       <description>This is what I built at today&amp;rsquo;s Memphis Hackathon. Thanks a billion to the Memphis Makers and their MakerSpace! There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.
 package main import ( &amp;quot;bufio&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;os&amp;quot; ) func main() { fmt.Println(nthFortune(0)) } func nthFortune(n int) string { filename := &amp;quot;/usr/local/Cellar/fortune/9708/share/games/fortunes/pets&amp;quot; theFile, _ := os.</description>
     </item>
     
     <item>
       <title>Favorite Ruby console tweaks to make my job easier - pry edition</title>
-      <link>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</link>
+      <link>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/</link>
       <pubDate>Thu, 25 Apr 2013 16:22:00 +0000</pubDate>
       
-      <guid>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</guid>
+      <guid>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/</guid>
       <description>My current project involves a lot of data coming in from a legacy system. Luckily I have the production web site of the legacy system available to compare against at any time. These two things are helping me out a lot for spot checking.
 I put them both in my ~/.pryrc file so that I always have them locally and I don&amp;rsquo;t have to pollute shared codebases with my pet tools.</description>
     </item>

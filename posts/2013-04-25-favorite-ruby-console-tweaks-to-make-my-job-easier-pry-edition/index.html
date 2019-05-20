@@ -60,71 +60,95 @@
 
 
 
-<section id="list">
+<article>
 
+    <h1>Favorite Ruby console tweaks to make my job easier - pry edition</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2013-04-25T16:22:00Z">Apr 25, 2013</time>
+        </li>
+        
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="https://dpritchett.net/tags/ruby-programming/">#ruby programming</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/ruby/">#ruby</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/ruby-on-rails/">#ruby on rails</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/programming/">#programming</a>
+                
+            </em>
+        </li>
+        
+
+        <li>1 min read</li>
+    </ul>
+</aside>
     
 
     
-        <h2>#ruby</h2>
-    
 
-    
+<p>My current project involves a lot of data coming in from a legacy system.  Luckily I have the production web site of the legacy system available to compare against at any time.  These two things are helping me out a lot for spot checking.</p>
 
-    
+<p>I put them both in my <code>~/.pryrc</code> file so that I always have them locally and I don&rsquo;t have to pollute shared codebases with my pet tools.  <a href="https://github.com/pry/pry">Pry</a> is a really awesome alternative to <code>irb</code>, by the way.</p>
 
-    <h3>2017</h3>
+<h2 id="open-a-string-in-the-browser-as-a-url">Open a String in the browser as a URL</h2>
+
+<pre><code>class String
+  def open_as_url
+    system(&quot;open #{self}&quot;)
+  end
+end
+</code></pre>
+
+<h2 id="sample-a-random-record-from-a-model">:sample a random record from a model</h2>
+
+<pre><code>module ActiveRecord
+  class Base
+    def self.sample
+      self.offset(rand(self.count)).first
+    end
+  end
+end
+</code></pre>
+
+<h2 id="see-them-both-in-action">See them both in action:</h2>
+
+<p><code>ProductVariant.sample.product.legacy_url.open_as_url</code></p>
+
+<p><img src="http://i.imgur.com/x21KPS5.gif" alt="Ron Paul - it's happening!" title="It's happening!" /></p>
+
+
+</article>
+
+
+<section class="post-nav">
     <ul>
         
         <li>
-            <a href="https://dpritchett.net/posts/southeast-ruby-conf/">Get Excited About Southeast Ruby Conference!</a>
-            <time class="date-meta">Feb 20</time>
+            <a href="https://dpritchett.net/posts/2013-04-19-whys-return/"><i class="fa fa-chevron-circle-left"></i> _why&#39;s return</a>
+        </li>
+        
+        
+        <li>
+            <a href="https://dpritchett.net/posts/2013-05-13-fortune-in-golang-proof-of-concept/">Fortune in Golang - Proof of Concept <i class="fa fa-chevron-circle-right"></i> </a>
         </li>
         
     </ul>
-    
-    
-
-    <h3>2014</h3>
-    <ul>
-        
-        <li>
-            <a href="https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/">I&rsquo;m Guest Posting on Spree and Neo4j for GraphStory.com</a>
-            <time class="date-meta">Nov 19</time>
-        </li>
-        
-        <li>
-            <a href="https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/">Lightweight Spree testing and deployment with Wercker and Heroku</a>
-            <time class="date-meta">Feb 27</time>
-        </li>
-        
-    </ul>
-    
-    
-
-    <h3>2013</h3>
-    <ul>
-        
-        <li>
-            <a href="https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/">Endless HTTParty retries in Ruby with a simple block</a>
-            <time class="date-meta">Jul 9</time>
-        </li>
-        
-        <li>
-            <a href="https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/">Favorite Ruby console tweaks to make my job easier - pry edition</a>
-            <time class="date-meta">Apr 25</time>
-        </li>
-        
-        <li>
-            <a href="https://dpritchett.net/posts/2013-04-19-whys-return/">_why&rsquo;s return</a>
-            <time class="date-meta">Apr 19</time>
-        </li>
-        
-    </ul>
-    
-    
-
 </section>
-
+    
 
 
 

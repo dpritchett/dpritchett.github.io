@@ -13,10 +13,10 @@
     
     <item>
       <title>Favorite Ruby console tweaks to make my job easier - pry edition</title>
-      <link>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</link>
+      <link>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/</link>
       <pubDate>Thu, 25 Apr 2013 16:22:00 +0000</pubDate>
       
-      <guid>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</guid>
+      <guid>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/</guid>
       <description>My current project involves a lot of data coming in from a legacy system. Luckily I have the production web site of the legacy system available to compare against at any time. These two things are helping me out a lot for spot checking.
 I put them both in my ~/.pryrc file so that I always have them locally and I don&amp;rsquo;t have to pollute shared codebases with my pet tools.</description>
     </item>

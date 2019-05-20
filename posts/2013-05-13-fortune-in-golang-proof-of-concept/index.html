@@ -60,71 +60,97 @@
 
 
 
-<section id="list">
+<article>
+
+    <h1>Fortune in Golang - Proof of Concept</h1>
 
     
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2013-05-13T15:00:05Z">May 13, 2013</time>
+        </li>
+        
+        
 
-    
-        <h2>#ruby</h2>
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="https://dpritchett.net/tags/golang/">#golang</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/fortune/">#fortune</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/programming/">#programming</a>
+                
+                    , 
+                    <a href="https://dpritchett.net/tags/go/">#go</a>
+                
+            </em>
+        </li>
+        
+
+        <li>1 min read</li>
+    </ul>
+</aside>
     
 
-    
+    <p>This is what I built at today&rsquo;s Memphis Hackathon.  Thanks a billion to the Memphis Makers and their MakerSpace!  There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.</p>
 
-    
+<pre><code>package main
 
-    <h3>2017</h3>
+import (
+    &quot;bufio&quot;
+    &quot;fmt&quot;
+    &quot;os&quot;
+)
+
+func main() {
+    fmt.Println(nthFortune(0))
+}
+
+func nthFortune(n int) string {
+    filename := &quot;/usr/local/Cellar/fortune/9708/share/games/fortunes/pets&quot;
+    theFile, _ := os.Open(filename)
+    fileBuf := bufio.NewReader(theFile)
+
+    for i := 0; i &lt; n; i++  {
+      fileBuf.ReadString('%')
+    }
+
+    theLine, _ := fileBuf.ReadString('%')
+    cutoff := len(theLine) - 1
+
+    return theLine[:cutoff]
+}
+</code></pre>
+
+<p>Output:
+    # go run fortune.go
+    Cats, no less liquid than their shadows, offer no angles to the wind.</p>
+
+
+</article>
+
+
+<section class="post-nav">
     <ul>
         
         <li>
-            <a href="https://dpritchett.net/posts/southeast-ruby-conf/">Get Excited About Southeast Ruby Conference!</a>
-            <time class="date-meta">Feb 20</time>
+            <a href="https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/"><i class="fa fa-chevron-circle-left"></i> Favorite Ruby console tweaks to make my job easier - pry edition</a>
+        </li>
+        
+        
+        <li>
+            <a href="https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/">Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases <i class="fa fa-chevron-circle-right"></i> </a>
         </li>
         
     </ul>
-    
-    
-
-    <h3>2014</h3>
-    <ul>
-        
-        <li>
-            <a href="https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/">I&rsquo;m Guest Posting on Spree and Neo4j for GraphStory.com</a>
-            <time class="date-meta">Nov 19</time>
-        </li>
-        
-        <li>
-            <a href="https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/">Lightweight Spree testing and deployment with Wercker and Heroku</a>
-            <time class="date-meta">Feb 27</time>
-        </li>
-        
-    </ul>
-    
-    
-
-    <h3>2013</h3>
-    <ul>
-        
-        <li>
-            <a href="https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/">Endless HTTParty retries in Ruby with a simple block</a>
-            <time class="date-meta">Jul 9</time>
-        </li>
-        
-        <li>
-            <a href="https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/">Favorite Ruby console tweaks to make my job easier - pry edition</a>
-            <time class="date-meta">Apr 25</time>
-        </li>
-        
-        <li>
-            <a href="https://dpritchett.net/posts/2013-04-19-whys-return/">_why&rsquo;s return</a>
-            <time class="date-meta">Apr 19</time>
-        </li>
-        
-    </ul>
-    
-    
-
 </section>
-
+    
 
 
 
