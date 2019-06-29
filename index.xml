@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Build Chatbot Interactions Available to Order Today!</title>
+      <title>Chatbot Book Available to Order Today!</title>
       <link>https://dpritchett.net/posts/chatbot-book-available-to-order/</link>
       <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
       
@@ -177,6 +177,15 @@ I put them both in my ~/.pryrc file so that I always have them locally and I don
       <guid>https://dpritchett.net/posts/2013-04-19-whys-return/</guid>
       <description>&amp;ldquo;If anyone wants to hook their actual printer up to _why’s queue (which I’m pretty sure is what he intended), iandennismiller transcribed the OCaml program in SPOOL/HOMEWORK which polls whytheluckystiff.net and sends the PCL files to your printer: https://github.com/cwales/cwales.github.com/pull/4
 It’s quite magical. I was woken up this morning by my printer, when the first pages were being published. Now every 5, 10, or 15 minutes my printer starts clanking away (it’s an old one) and a brand new page slowly emerges.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dpritchett.net/learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dpritchett.net/learning/</guid>
+      <description>Act now supplies are limited  .content { color: white; text-align: center; } .bumper-top { margin-top: 50px; } .content li { margin: 15px; } .content a,.content a:visited { color: blue; } .blinking { animation:blinkingText 0.8s infinite; } .kinetic { font-style: italic; } .spaced { margin: 50px; } @keyframes blinkingText{ 0%{ color: white; } 49%{ color: transparent; } 50%{ color: transparent; } 99%{ color: transparent; } 100%{ color: white; } } /* ============================================================================================== SED Innovations https://sed.</description>
     </item>
     
     <item>
