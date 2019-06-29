@@ -1,37 +1,30 @@
-<html>
+<!doctype html>
+<html lang="en-US">
   <head>
     <title>Act now supplies are limited</title>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
     <link rel='icon' href='https://github.com/dpritchett/dpritchett.net/blob/master/static/images/starry-headshot.jpg?raw=true' type='image/x-icon'/ >
     <style>
-      .content {
-	color: white; text-align: center;
-
+      .content { color: white; text-align: center; 
       }
 
-      .bumper-top {
-	margin-top: 50px;
-      }
+      .embiggen { font-size: xx-large; }
 
-      .content li {
-	margin: 15px;
-      }
+      .bumper-top { margin-top: 20px; }
 
-      .content a,.content a:visited {
-	  color: blue;
-	}
+      .bumper-bottom { margin-bottom: 20px; }
 
-      .blinking {
-	  animation:blinkingText 0.8s infinite;
-      }
+      .content li { margin: 15px; }
 
-      .kinetic {
-	font-style: italic;
-      }
+      .content a,.content a:visited { color: blue; }
+
+      .blinking { animation:blinkingText 0.8s infinite; }
+
+      .kinetic { font-style: italic; }
 
       .spaced {
-	margin: 50px;
+	margin: 20px;
       }
 
       @keyframes blinkingText{
@@ -148,10 +141,19 @@
   <body>
     <div class="stars">
       <div class="content">
-	<h1>Twenty exciting seconds of instruction</h1>
+	<h1>Twenty exciting seconds of instruction with Mister Pritchett</h1>
 	<a href="https://www.youtube.com/watch?v=R5lBp20sIqk&feature=youtu.be&t=530">
-	<iframe class="spaced" align="center" width="448" height="252" src="https://www.youtube.com/embed/R5lBp20sIqk?start=529&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <iframe class="spaced" align="center" width="448" height="252" src="https://www.youtube.com/embed/R5lBp20sIqk?start=529&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</a>
+	<div class="bumper-top bumper-bottom embiggen">
+	  <a href="https://ocremix.org/remix/OCR00577">🎺🎺🎺</a>
+	      <audio id=jazzy autoplay loop src="https://dpritchett.net/audio/smb2jazz.mp3" controls/></audio>
+	  <a href="https://ocremix.org/remix/OCR00577">🎺🎺🎺</a>
+	</div>
+	<script>
+	  var audio = document.getElementById("jazzy");
+	  audio.volume = 0.2;
+	</script>
 	<p>
 	Watch for a demonstration of his <span class="kinetic blinking">kinetic</span> teaching style<em>!!</em>
 	</p>

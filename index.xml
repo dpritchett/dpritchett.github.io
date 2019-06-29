@@ -185,7 +185,7 @@ It’s quite magical. I was woken up this morning by my printer, when the first 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dpritchett.net/learning/</guid>
-      <description>Act now supplies are limited  .content { color: white; text-align: center; } .bumper-top { margin-top: 50px; } .content li { margin: 15px; } .content a,.content a:visited { color: blue; } .blinking { animation:blinkingText 0.8s infinite; } .kinetic { font-style: italic; } .spaced { margin: 50px; } @keyframes blinkingText{ 0%{ color: white; } 49%{ color: transparent; } 50%{ color: transparent; } 99%{ color: transparent; } 100%{ color: white; } } /* ============================================================================================== SED Innovations https://sed.</description>
+      <description>Act now supplies are limited  .content { color: white; text-align: center; } .embiggen { font-size: xx-large; } .bumper-top { margin-top: 20px; } .bumper-bottom { margin-bottom: 20px; } .content li { margin: 15px; } .content a,.content a:visited { color: blue; } .blinking { animation:blinkingText 0.8s infinite; } .kinetic { font-style: italic; } .spaced { margin: 20px; } @keyframes blinkingText{ 0%{ color: white; } 49%{ color: transparent; } 50%{ color: transparent; } 99%{ color: transparent; } 100%{ color: white; } } /* ============================================================================================== SED Innovations https://sed.</description>
     </item>
     
     <item>
