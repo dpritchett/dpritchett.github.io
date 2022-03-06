@@ -8,11 +8,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Notes on building cloud software and systems for humans" />
   <meta name="author" content="Daniel Pritchett" />
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.50" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
   <link rel="stylesheet" type="text/css" href="https://dpritchett.net/css/styles.css" />
+
+  
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "posts",
+    "name": "Endless HTTParty retries in Ruby with a simple block",
+    "headline": "Endless HTTParty retries in Ruby with a simple block",
+    "alternativeHeadline": "",
+    "description": "See also: A Ruby HOWTO: Writing A Method That Uses Code Blocks
+# Simple wrapper to allow retries for HTTP requests - prolongs daemon life. def with_http_retries(&amp;block) begin yield rescue Errno::ECONNREFUSED, SocketError, Net::ReadTimeout DaemonKit.logger.error &quot;Cannot reach [#{@service_url}]. Retrying in #{@retry_seconds} seconds.&quot; sleep @retry_seconds retry end end # DRYing up the connection params @request_params = [@service_url, { headers: { &quot;Authorization&quot; =&gt; &quot;Token token=#{api_key}&quot; }, timeout: 5 }] loop do response = with_http_retries { HTTParty.",
+    "inLanguage": en-us,
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/"
+    },
+    "author" : {
+        "@type": "Person",
+        "name": "Daniel Pritchett"
+    },
+    "creator" : {
+        "@type": "Person",
+        "name": "Daniel Pritchett"
+    },
+    "accountablePerson" : {
+        "@type": "Person",
+        "name": "Daniel Pritchett"
+    },
+    "copyrightHolder" : "Daniel Pritchett",
+    "copyrightYear" : "2013",
+    "dateCreated": "2013-07-09T17:48:10.00Z",
+    "datePublished": "2013-07-09T17:48:10.00Z",
+    "dateModified": "2013-07-09T17:48:10.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": Daniel Pritchett,
+        "url": https://dpritchett.net,
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://dpritchett.net/images/headshot_swing.jpg",
+            "width":"800",
+            "height":"800"
+        }
+    },
+    "image": https://dpritchett.net/images/headshot_swing.jpg,
+    "url" : "https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/",
+    "wordCount" : "80",
+    "keywords" : [ "ruby" , "programming" , "computer science" , "daemons" ]
+}
+</script>
 </head>
 
 <body>
@@ -20,8 +74,7 @@
     <header>
       <h1>
                 <a href="https://dpritchett.net/">Daniel Pritchett</a>
-            </h1>
-
+      </h1>
       <ul id="social-media">
         
         <li><a href="https://twitter.com/dpritchett"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>

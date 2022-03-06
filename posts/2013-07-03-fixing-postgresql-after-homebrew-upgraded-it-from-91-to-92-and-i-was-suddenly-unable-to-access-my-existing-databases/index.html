@@ -8,11 +8,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Notes on building cloud software and systems for humans" />
   <meta name="author" content="Daniel Pritchett" />
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.50" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
   <link rel="stylesheet" type="text/css" href="https://dpritchett.net/css/styles.css" />
+
+  
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "posts",
+    "name": "Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases",
+    "headline": "Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases",
+    "alternativeHeadline": "",
+    "description": "Symptoms  You just rebooted and suddenly PostgreSQL isn&rsquo;t responding Restarting postgres fails due to a &ldquo;Your data files are incompatible with the current version of Postgres&rdquo; error.  Prescription There&rsquo;s a utility that comes with Postgres named pg_upgrade which should sort you out. In order to work it you&rsquo;ll need to create and initialize a new postgres data directory and then call pg_upgrade and pass it paths for the old binaries, new binaries, old data directory, and new data directory.",
+    "inLanguage": en-us,
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/"
+    },
+    "author" : {
+        "@type": "Person",
+        "name": "Daniel Pritchett"
+    },
+    "creator" : {
+        "@type": "Person",
+        "name": "Daniel Pritchett"
+    },
+    "accountablePerson" : {
+        "@type": "Person",
+        "name": "Daniel Pritchett"
+    },
+    "copyrightHolder" : "Daniel Pritchett",
+    "copyrightYear" : "2013",
+    "dateCreated": "2013-07-03T16:16:00.00Z",
+    "datePublished": "2013-07-03T16:16:00.00Z",
+    "dateModified": "2013-07-03T16:16:00.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": Daniel Pritchett,
+        "url": https://dpritchett.net,
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://dpritchett.net/images/headshot_swing.jpg",
+            "width":"800",
+            "height":"800"
+        }
+    },
+    "image": https://dpritchett.net/images/headshot_swing.jpg,
+    "url" : "https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/",
+    "wordCount" : "86",
+    "keywords" : [ "programming" , "postgresql" , "homebrew" , "osx" ]
+}
+</script>
 </head>
 
 <body>
@@ -20,8 +73,7 @@
     <header>
       <h1>
                 <a href="https://dpritchett.net/">Daniel Pritchett</a>
-            </h1>
-
+      </h1>
       <ul id="social-media">
         
         <li><a href="https://twitter.com/dpritchett"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
