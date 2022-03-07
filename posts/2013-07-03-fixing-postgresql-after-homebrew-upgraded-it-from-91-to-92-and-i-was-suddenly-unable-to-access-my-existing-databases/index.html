@@ -9,29 +9,50 @@
   </div>
   <meta charset="utf-8" />
 
-  <meta name="title" content="Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases | dpritchett.net by Daniel Pritchett" />
+<meta name="title" content="Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases | dpritchett.net by Daniel Pritchett" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Notes on building cloud software and systems for humans" />
-  <meta name="author" content="Daniel Pritchett" />
-  <meta name="thumbnail" content="https://dpritchett.net/images/headshot_swing_128px.jpg" />
-  <meta name=”robots” content="index, follow">
-  <meta name="generator" content="Hugo 0.55.6" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Symptoms  You just rebooted and suddenly PostgreSQL isn&rsquo;t responding Restarting postgres fails due to a &ldquo;Your data files are incompatible with the current version of Postgres&rdquo; error.  Prescription There&rsquo;s a utility that comes with Postgres named pg_upgrade which should sort you out. In order to work it you&rsquo;ll need to create and initialize a new postgres data directory and then call pg_upgrade and pass it paths for the old binaries, new binaries, old data directory, and new data directory." />
+<meta name="author" content="Daniel Pritchett" />
+<meta name="thumbnail" content="https://dpritchett.net/%20/images/headshot_swing_128px.jpg" />
+<meta name=”robots” content="index, follow" /> 
+
+
+<meta property="og:title" content="Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases" />
+<meta property="og:description" content="Symptoms  You just rebooted and suddenly PostgreSQL isn&rsquo;t responding Restarting postgres fails due to a &ldquo;Your data files are incompatible with the current version of Postgres&rdquo; error.  Prescription There&rsquo;s a utility that comes with Postgres named pg_upgrade which should sort you out. In order to work it you&rsquo;ll need to create and initialize a new postgres data directory and then call pg_upgrade and pass it paths for the old binaries, new binaries, old data directory, and new data directory." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/" />
+
+<meta property="og:image" content="https://dpritchett.net/images/headshot_swing_128px.jpg" />
+<meta property="article:published_time" content="2013-07-03T16:16:00&#43;00:00"/>
+<meta property="article:modified_time" content="2013-07-03T16:16:00&#43;00:00"/><meta property="og:site_name" content="dpritchett.net by Daniel Pritchett" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dpritchett.net/images/headshot_swing_128px.jpg"/>
+
+<meta name="twitter:title" content="Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases"/>
+<meta name="twitter:description" content="Symptoms  You just rebooted and suddenly PostgreSQL isn&rsquo;t responding Restarting postgres fails due to a &ldquo;Your data files are incompatible with the current version of Postgres&rdquo; error.  Prescription There&rsquo;s a utility that comes with Postgres named pg_upgrade which should sort you out. In order to work it you&rsquo;ll need to create and initialize a new postgres data directory and then call pg_upgrade and pass it paths for the old binaries, new binaries, old data directory, and new data directory."/>
+
+
+<meta name="generator" content="Hugo 0.55.6" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
   <link rel="stylesheet" type="text/css" href="https://dpritchett.net/css/styles.css" />
 
   
-
-
 <script type="application/ld+json">
+
+
+
 {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
     "articleSection": "posts",
-    "name": "Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases",
-    "headline": "Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases",
+    "name": "Fixing PostgreSQL After Homebrew Upgraded It From 9.1 to 9.2 and I Was Suddenly Unable to Access My Existing Databases",
+    "headline": "Fixing PostgreSQL After Homebrew Upgraded It From 9.1 to 9.2 and I Was Suddenly Unable to Access My Existing Databases",
     "alternativeHeadline": "",
     "description": "Symptoms  You just rebooted and suddenly PostgreSQL isn\x26rsquo;t responding Restarting postgres fails due to a \x26ldquo;Your data files are incompatible with the current version of Postgres\x26rdquo; error.  Prescription There\x26rsquo;s a utility that comes with Postgres named pg_upgrade which should sort you out. In order to work it you\x26rsquo;ll need to create and initialize a new postgres data directory and then call pg_upgrade and pass it paths for the old binaries, new binaries, old data directory, and new data directory.",
     "inLanguage": "en-us",
@@ -73,8 +94,8 @@
     "wordCount" : "86",
     "keywords" : [ "programming" , "postgresql" , "homebrew" , "osx" ]
 }
-</script>
 
+</script>
 
   
 <script type="application/javascript">
@@ -135,7 +156,7 @@ if (!doNotTrack) {
 
 <article>
 
-    <h1>Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases</h1>
+    <h1>Fixing PostgreSQL After Homebrew Upgraded It From 9.1 to 9.2 and I Was Suddenly Unable to Access My Existing Databases</h1>
 
     
         <aside>
@@ -199,7 +220,7 @@ if (!doNotTrack) {
         
         
         <li>
-            <a href="https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/">Endless HTTParty retries in Ruby with a simple block <i class="fa fa-chevron-circle-right"></i> </a>
+            <a href="https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/">Endless HTTParty Retries in Ruby With a Simple Block <i class="fa fa-chevron-circle-right"></i> </a>
         </li>
         
     </ul>
@@ -211,13 +232,15 @@ if (!doNotTrack) {
 
 
 </main>
-    <footer>
-        <h6> | 
-            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
-            <a href="https://dpritchett.net/index.xml">Subscribe</a></h6>
-    </footer>
+<footer>
+    <h6>
+        © 2022 Daniel Pritchett (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>)
+        | Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a>
+        | <a href="https://dpritchett.net/%20/sitemap.xml">Sitemap</a>
+        | <a href="https://dpritchett.net/%20/index.xml">Subscribe via RSS</a>
+    </h6>
+</footer>
 </div>
 <script src="https://dpritchett.net/js/scripts.js"></script>
 </body>
-
 </html>

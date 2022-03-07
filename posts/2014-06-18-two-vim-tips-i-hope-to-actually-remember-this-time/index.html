@@ -9,29 +9,56 @@
   </div>
   <meta charset="utf-8" />
 
-  <meta name="title" content="Two vim tips I hope to actually remember this time | dpritchett.net by Daniel Pritchett" />
+<meta name="title" content="Two vim tips I hope to actually remember this time | dpritchett.net by Daniel Pritchett" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Notes on building cloud software and systems for humans" />
-  <meta name="author" content="Daniel Pritchett" />
-  <meta name="thumbnail" content="https://dpritchett.net/images/headshot_swing_128px.jpg" />
-  <meta name=”robots” content="index, follow">
-  <meta name="generator" content="Hugo 0.55.6" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Read from an external command into the current buffer :read prints the results of an external command into the current buffer.
+Example :read ! cat /etc/passwd will copy the /etc/passwd file into the current buffer.
+Pasting yanked text into the command input Yank a word (e.g. yw to yank the word under the cursor) Enter the vim command line via : Ctrl-R, &quot; to paste from the default register." />
+<meta name="author" content="Daniel Pritchett" />
+<meta name="thumbnail" content="https://dpritchett.net/%20/images/headshot_swing_128px.jpg" />
+<meta name=”robots” content="index, follow" /> 
+
+
+<meta property="og:title" content="Two vim tips I hope to actually remember this time" />
+<meta property="og:description" content="Read from an external command into the current buffer :read prints the results of an external command into the current buffer.
+Example :read ! cat /etc/passwd will copy the /etc/passwd file into the current buffer.
+Pasting yanked text into the command input Yank a word (e.g. yw to yank the word under the cursor) Enter the vim command line via : Ctrl-R, &quot; to paste from the default register." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/" />
+
+<meta property="og:image" content="https://dpritchett.net/images/headshot_swing_128px.jpg" />
+<meta property="article:published_time" content="2014-06-18T13:53:10&#43;00:00"/>
+<meta property="article:modified_time" content="2014-06-18T13:53:10&#43;00:00"/><meta property="og:site_name" content="dpritchett.net by Daniel Pritchett" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dpritchett.net/images/headshot_swing_128px.jpg"/>
+
+<meta name="twitter:title" content="Two vim tips I hope to actually remember this time"/>
+<meta name="twitter:description" content="Read from an external command into the current buffer :read prints the results of an external command into the current buffer.
+Example :read ! cat /etc/passwd will copy the /etc/passwd file into the current buffer.
+Pasting yanked text into the command input Yank a word (e.g. yw to yank the word under the cursor) Enter the vim command line via : Ctrl-R, &quot; to paste from the default register."/>
+
+
+<meta name="generator" content="Hugo 0.55.6" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
   <link rel="stylesheet" type="text/css" href="https://dpritchett.net/css/styles.css" />
 
   
-
-
 <script type="application/ld+json">
+
+
+
 {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
     "articleSection": "posts",
-    "name": "Two vim tips I hope to actually remember this time",
-    "headline": "Two vim tips I hope to actually remember this time",
+    "name": "Two Vim Tips I Hope to Actually Remember This Time",
+    "headline": "Two Vim Tips I Hope to Actually Remember This Time",
     "alternativeHeadline": "",
     "description": "Read from an external command into the current buffer :read prints the results of an external command into the current buffer.\nExample :read ! cat \/etc\/passwd will copy the \/etc\/passwd file into the current buffer.\nPasting yanked text into the command input Yank a word (e.g. yw to yank the word under the cursor) Enter the vim command line via : Ctrl-R, \x26quot; to paste from the default register.",
     "inLanguage": "en-us",
@@ -73,8 +100,8 @@
     "wordCount" : "79",
     "keywords" : [ "vim" , "programming" , "editors" ]
 }
-</script>
 
+</script>
 
   
 <script type="application/javascript">
@@ -135,7 +162,7 @@ if (!doNotTrack) {
 
 <article>
 
-    <h1>Two vim tips I hope to actually remember this time</h1>
+    <h1>Two Vim Tips I Hope to Actually Remember This Time</h1>
 
     
         <aside>
@@ -194,7 +221,7 @@ Enter the vim command line via <code>:</code>
     <ul>
         
         <li>
-            <a href="https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/"><i class="fa fa-chevron-circle-left"></i> Lightweight Spree testing and deployment with Wercker and Heroku</a>
+            <a href="https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/"><i class="fa fa-chevron-circle-left"></i> Lightweight Spree Testing and Deployment With Wercker and Heroku</a>
         </li>
         
         
@@ -211,13 +238,15 @@ Enter the vim command line via <code>:</code>
 
 
 </main>
-    <footer>
-        <h6> | 
-            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
-            <a href="https://dpritchett.net/index.xml">Subscribe</a></h6>
-    </footer>
+<footer>
+    <h6>
+        © 2022 Daniel Pritchett (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>)
+        | Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a>
+        | <a href="https://dpritchett.net/%20/sitemap.xml">Sitemap</a>
+        | <a href="https://dpritchett.net/%20/index.xml">Subscribe via RSS</a>
+    </h6>
+</footer>
 </div>
 <script src="https://dpritchett.net/js/scripts.js"></script>
 </body>
-
 </html>
