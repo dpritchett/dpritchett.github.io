@@ -12,8 +12,7 @@
 <meta name="title" content="Endless HTTParty retries in Ruby with a simple block | dpritchett.net by Daniel Pritchett" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="See also: A Ruby HOWTO: Writing A Method That Uses Code Blocks
-# Simple wrapper to allow retries for HTTP requests - prolongs daemon life. def with_http_retries(&amp;block) begin yield rescue Errno::ECONNREFUSED, SocketError, Net::ReadTimeout DaemonKit.logger.error &quot;Cannot reach [#{@service_url}]. Retrying in #{@retry_seconds} seconds.&quot; sleep @retry_seconds retry end end # DRYing up the connection params @request_params = [@service_url, { headers: { &quot;Authorization&quot; =&gt; &quot;Token token=#{api_key}&quot; }, timeout: 5 }] loop do response = with_http_retries { HTTParty." />
+<meta name="description" content="Notes on building cloud software and systems for humans" />
 <meta name="author" content="Daniel Pritchett" />
 <meta name="thumbnail" content="https://dpritchett.net/images/headshot_swing_128px.jpg" />
 <meta name="robots" content="index, follow" /> 
@@ -145,7 +144,7 @@ if (!doNotTrack) {
         
         <li>
             <a class="" href="https://dpritchett.net/book/">
-                <i class="fa-li fa  fa-lg"></i><span>Books</span>
+                <i class="fa-li fa  fa-lg"></i><span>Build Chatbot Interactions</span>
             </a>
         </li>
         
