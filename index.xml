@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
-    <lastBuildDate>Tue, 02 Apr 2019 09:32:05 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 07 Mar 2022 12:41:51 -0600</lastBuildDate>
     
 	<atom:link href="https://dpritchett.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Professional Resume</title>
+      <link>https://dpritchett.net/resume/</link>
+      <pubDate>Mon, 07 Mar 2022 12:41:51 -0600</pubDate>
+      
+      <guid>https://dpritchett.net/resume/</guid>
+      <description>Tech Lead - Observability at Rebellion Defense
+Summary Cloud systems implementation and management. Deep background in Ruby, AWS, Go, Terraform, and Kubernetes. Developer tooling and chatops expert.
+Experience Rebellion Defense Technical Lead - Observability February 2022 - Present
+Senior Backend Engineer March 2021 - February 2022
+ Stabilized multi-vendor joint integration efforts with hands-on observability leadership and automation of data interchange formats Data engineering for ML exploration with Python and Go Engineering and Project management for cross-team platform solutions  CrowdStrike Senior Engineer June 2020 - March 2021</description>
+    </item>
     
     <item>
       <title>Reading List for Early Career Engineers</title>
