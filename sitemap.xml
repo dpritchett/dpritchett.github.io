@@ -3,12 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dpritchett.net/</loc>
-    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://dpritchett.net/posts/</loc>
     <lastmod>2019-04-02T09:32:05-05:00</lastmod>
     <priority>0</priority>
@@ -39,6 +33,12 @@
   
   <url>
     <loc>https://dpritchett.net/tags/communication/</loc>
+    <lastmod>2019-04-02T09:32:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dpritchett.net/</loc>
     <lastmod>2019-04-02T09:32:05-05:00</lastmod>
     <priority>0</priority>
   </url>
