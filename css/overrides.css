@@ -1,4 +1,4 @@
-body {
+/* body {
     background: lightgreen;
 }
 
@@ -14,8 +14,18 @@ body {
 .col1 {
     width: 80%;
 }
+*/
 
-#banner-selfie{
+#banner-selfie {
+    width: 20%;
+    margin-left: 80%;
+
+    display: flex;
+
+    margin-top: 1rem;
+
+    max-width: 128px;
+    max-height: 128px;
     min-width: 128px;
     min-height: 128px;
 

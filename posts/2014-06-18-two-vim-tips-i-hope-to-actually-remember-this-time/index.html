@@ -9,7 +9,7 @@
 <meta name="title" content="Two vim tips I hope to actually remember this time | dpritchett.net" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Notes on building cloud software and systems for humans" />
+<meta name="description" content="Notes on building cloud software and systems for humans — by Daniel Pritchett" />
 <meta name="author" content="Daniel Pritchett" />
 <meta name="thumbnail" content="https://dpritchett.net/images/headshot_swing_128px.jpg" />
 <meta name="robots" content="index, follow" /> 
@@ -42,6 +42,7 @@ Pasting yanked text into the command input Yank a word (e.g. yw to yank the word
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
   <link rel="stylesheet" type="text/css" href="https://dpritchett.net/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="https://dpritchett.net/css/overrides.css" />
 
   
 
@@ -64,7 +65,7 @@ Pasting yanked text into the command input Yank a word (e.g. yw to yank the word
     },
     "author" : {
         "@type": "Person",
-        "name": "Daniel Pritchett"
+        "name": "Daniel Pritchett",
         "image": "https://dpritchett.net/images/headshot_swing.jpg",
         "url": "https://dpritchett.net",
         "sameAs": [
@@ -75,7 +76,7 @@ Pasting yanked text into the command input Yank a word (e.g. yw to yank the word
     },
     "creator" : {
         "@type": "Person",
-        "name": "Daniel Pritchett"
+        "name": "Daniel Pritchett",
         "image": "https://dpritchett.net/images/headshot_swing.jpg",
         "url": "https://dpritchett.net",
         "sameAs": [
@@ -86,7 +87,7 @@ Pasting yanked text into the command input Yank a word (e.g. yw to yank the word
     },
     "accountablePerson" : {
         "@type": "Person",
-        "name": "Daniel Pritchett"
+        "name": "Daniel Pritchett",
         "image": "https://dpritchett.net/images/headshot_swing.jpg",
         "url": "https://dpritchett.net",
         "sameAs": [
@@ -135,9 +136,16 @@ if (!doNotTrack) {
 <body>
   <div id="container">
     <header>
-      <h1>
-        <a href="https://dpritchett.net/">dpritchett.net</a>
-      </h1>
+      <div id="banner">
+        <div class="col1">
+          <img id="banner-selfie" src="https://dpritchett.net/images/headshot_swing_128px.jpg" />
+        </div>
+        <div class="col2">
+          <h1 id="banner-title">
+            <a href="https://dpritchett.net/">dpritchett.net</a>
+          </h1>
+        </div>
+      </div>
       <ul id="social-media">
         
         <li><a href="https://twitter.com/dpritchett"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
@@ -148,7 +156,7 @@ if (!doNotTrack) {
            
       </ul>
       
-      <p><em>Notes on building cloud software and systems for humans</em></p>
+      <p><em>Notes on building cloud software and systems for humans — by Daniel Pritchett</em></p>
       
     </header>
 
