@@ -1,104 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>programming on Daniel Pritchett&#39;s Homepage</title>
-    <link>https://dpritchett.net/tags/programming/</link>
-    <description>Recent content in programming on Daniel Pritchett&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
-    <lastBuildDate>Wed, 23 Jan 2019 14:33:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://dpritchett.net/tags/programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Build Chatbot Interactions — Book Available to Order Today!</title>
-      <link>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</link>
-      <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
-      
-      <guid>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</guid>
-      <description>I just shipped the first draft of my multi-year book project a few weeks ago and the beta release is available for download now! Check it out and give me a shout 😃
-Build Chatbot Interactions: Responsive, Intuitive Interfaces with Ruby  </description>
-    </item>
-    
-    <item>
-      <title>Hearing Aids Are Cool</title>
-      <link>https://dpritchett.net/posts/hearing-aids-are-cool/</link>
-      <pubDate>Sun, 03 Sep 2017 10:22:25 -0500</pubDate>
-      
-      <guid>https://dpritchett.net/posts/hearing-aids-are-cool/</guid>
-      <description>&lt;p&gt;Personal story time! I&amp;rsquo;ve been wearing hearing aids since the 3rd grade. My folks drove me down to Florida State University to get a hearing test and a fitting for some new aids. I lost one of my first pairs in a cardboard box in a cabin in the woods and my parents didn&amp;rsquo;t even kill me. In the intervening 30 years I&amp;rsquo;ve been through a few sets of aids. My first few sets were &lt;a href=&#34;https://www.google.com/search?tbm=isch&amp;amp;amp;q=itc+hearing+aids&#34;&gt;in-the-canal&lt;/a&gt; (ITC) aids. My current set is a behind-the-ear (BTE) set.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Two vim tips I hope to actually remember this time</title>
-      <link>https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</link>
-      <pubDate>Wed, 18 Jun 2014 13:53:10 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</guid>
-      <description>Read from an external command into the current buffer :read prints the results of an external command into the current buffer.
-Example :read ! cat /etc/passwd will copy the /etc/passwd file into the current buffer.
-Pasting yanked text into the command input Yank a word (e.g. yw to yank the word under the cursor) Enter the vim command line via : Ctrl-R, &amp;quot; to paste from the default register.</description>
-    </item>
-    
-    <item>
-      <title>Lightweight Spree testing and deployment with Wercker and Heroku</title>
-      <link>https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</link>
-      <pubDate>Thu, 27 Feb 2014 18:49:35 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</guid>
-      <description>Continuous deployment to Heroku has been a huge help on my last two projects. You might find it useful too!</description>
-    </item>
-    
-    <item>
-      <title>Endless HTTParty retries in Ruby with a simple block</title>
-      <link>https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</link>
-      <pubDate>Tue, 09 Jul 2013 17:48:10 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</guid>
-      <description>See also: A Ruby HOWTO: Writing A Method That Uses Code Blocks
-# Simple wrapper to allow retries for HTTP requests - prolongs daemon life. def with_http_retries(&amp;amp;block) begin yield rescue Errno::ECONNREFUSED, SocketError, Net::ReadTimeout DaemonKit.logger.error &amp;quot;Cannot reach [#{@service_url}]. Retrying in #{@retry_seconds} seconds.&amp;quot; sleep @retry_seconds retry end end # DRYing up the connection params @request_params = [@service_url, { headers: { &amp;quot;Authorization&amp;quot; =&amp;gt; &amp;quot;Token token=#{api_key}&amp;quot; }, timeout: 5 }] loop do response = with_http_retries { HTTParty.</description>
-    </item>
-    
-    <item>
-      <title>Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases</title>
-      <link>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</link>
-      <pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</guid>
-      <description>Symptoms  You just rebooted and suddenly PostgreSQL isn&amp;rsquo;t responding Restarting postgres fails due to a &amp;ldquo;Your data files are incompatible with the current version of Postgres&amp;rdquo; error.  Prescription There&amp;rsquo;s a utility that comes with Postgres named pg_upgrade which should sort you out. In order to work it you&amp;rsquo;ll need to create and initialize a new postgres data directory and then call pg_upgrade and pass it paths for the old binaries, new binaries, old data directory, and new data directory.</description>
-    </item>
-    
-    <item>
-      <title>Fortune in Golang - Proof of Concept</title>
-      <link>https://dpritchett.net/posts/2013-05-13-fortune-in-golang-proof-of-concept/</link>
-      <pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-05-13-fortune-in-golang-proof-of-concept/</guid>
-      <description>This is what I built at today&amp;rsquo;s Memphis Hackathon. Thanks a billion to the Memphis Makers and their MakerSpace! There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.
-package main import ( &amp;quot;bufio&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;os&amp;quot; ) func main() { fmt.Println(nthFortune(0)) } func nthFortune(n int) string { filename := &amp;quot;/usr/local/Cellar/fortune/9708/share/games/fortunes/pets&amp;quot; theFile, _ := os.</description>
-    </item>
-    
-    <item>
-      <title>Favorite Ruby console tweaks to make my job easier - pry edition</title>
-      <link>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/</link>
-      <pubDate>Thu, 25 Apr 2013 16:22:00 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/</guid>
-      <description>My current project involves a lot of data coming in from a legacy system. Luckily I have the production web site of the legacy system available to compare against at any time. These two things are helping me out a lot for spot checking.
-I put them both in my ~/.pryrc file so that I always have them locally and I don&amp;rsquo;t have to pollute shared codebases with my pet tools.</description>
-    </item>
-    
-    <item>
-      <title>_why&#39;s return</title>
-      <link>https://dpritchett.net/posts/2013-04-19-whys-return/</link>
-      <pubDate>Fri, 19 Apr 2013 01:43:05 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-04-19-whys-return/</guid>
-      <description>&amp;ldquo;If anyone wants to hook their actual printer up to _why’s queue (which I’m pretty sure is what he intended), iandennismiller transcribed the OCaml program in SPOOL/HOMEWORK which polls whytheluckystiff.net and sends the PCL files to your printer: https://github.com/cwales/cwales.github.com/pull/4
-It’s quite magical. I was woken up this morning by my printer, when the first pages were being published. Now every 5, 10, or 15 minutes my printer starts clanking away (it’s an old one) and a brand new page slowly emerges.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Programming on Daniel Pritchett&#39;s Homepage</title>
+		<link>https://dpritchett.net/tags/programming/</link>
+		<description>Recent content in Programming on Daniel Pritchett&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
+		
+		
+			<lastBuildDate>Wed, 23 Jan 2019 14:33:00 -0600</lastBuildDate>
+		
+			<atom:link href="https://dpritchett.net/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Build Chatbot Interactions — Book Available to Order Today!</title>
+				<link>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</link>
+				<pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
+				<guid>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</guid>
+				<description>&lt;p&gt;I just shipped the first draft of my multi-year book project a few weeks ago and the beta release is &lt;a href=&#34;https://pragprog.com/book/dpchat/build-chatbot-interactions&#34;&gt;available for download&lt;/a&gt; now! Check it out and give me a shout 😃&lt;/p&gt;&#xA;&lt;p style=&#34;text-align: center; width: 60%;&#34;&gt;&#xA;&lt;a href=&#34;https://pragprog.com/book/dpchat/build-chatbot-interactions&#34;&gt;&#xA;&#x9;Build Chatbot Interactions: Responsive, Intuitive Interfaces with Ruby&#xA;&#x9;&lt;img alt=&#34;Book cover screenshot&#34; src=&#34;https://dpritchett.net/images/botbook/dpchat_xlargebeta.jpg&#34; style=&#34;width: 190px;&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hearing Aids Are Cool</title>
+				<link>https://dpritchett.net/posts/hearing-aids-are-cool/</link>
+				<pubDate>Sun, 03 Sep 2017 10:22:25 -0500</pubDate>
+				<guid>https://dpritchett.net/posts/hearing-aids-are-cool/</guid>
+				<description>&lt;p&gt;Personal story time! I&amp;rsquo;ve been wearing hearing aids since the 3rd grade. My folks drove me down to Florida State University to get a hearing test and a fitting for some new aids. I lost one of my first pairs in a cardboard box in a cabin in the woods and my parents didn&amp;rsquo;t even kill me. In the intervening 30 years I&amp;rsquo;ve been through a few sets of aids. My first few sets were &lt;a href=&#34;https://www.google.com/search?tbm=isch&amp;amp;q=itc+hearing+aids&#34;&gt;in-the-canal&lt;/a&gt; (ITC) aids. My current set is a behind-the-ear (BTE) set.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Two vim tips I hope to actually remember this time</title>
+				<link>https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</link>
+				<pubDate>Wed, 18 Jun 2014 13:53:10 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</guid>
+				<description>&lt;h1 id=&#34;read-from-an-external-command-into-the-current-buffer&#34;&gt;Read from an external command into the current buffer&lt;/h1&gt;&#xA;&lt;p&gt;&lt;code&gt;:read&lt;/code&gt; prints the results of an external command into the current buffer.&lt;/p&gt;&#xA;&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;&#xA;&lt;p&gt;&lt;code&gt;:read ! cat /etc/passwd&lt;/code&gt; will copy the &lt;code&gt;/etc/passwd&lt;/code&gt; file into the current buffer.&lt;/p&gt;&#xA;&lt;h1 id=&#34;pasting-yanked-text-into-the-command-input&#34;&gt;Pasting yanked text into the command input&lt;/h1&gt;&#xA;&lt;p&gt;Yank a word (e.g. &lt;code&gt;yw&lt;/code&gt; to yank the word under the cursor)&#xA;Enter the vim command line via &lt;code&gt;:&lt;/code&gt;&#xA;&lt;code&gt;Ctrl-R, &amp;quot;&lt;/code&gt; to paste from the default register.&lt;/p&gt;&#xA;&lt;p&gt;Note to self - read up on vim registers again!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Lightweight Spree testing and deployment with Wercker and Heroku</title>
+				<link>https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</link>
+				<pubDate>Thu, 27 Feb 2014 18:49:35 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</guid>
+				<description>&lt;p&gt;Continuous deployment to Heroku has been a huge help on my last two projects.  You might find it useful too!&lt;/p&gt;&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;85cb7d1081fa01314c711aae3e2a1509&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;</description>
+			</item>
+			<item>
+				<title>Endless HTTParty retries in Ruby with a simple block</title>
+				<link>https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</link>
+				<pubDate>Tue, 09 Jul 2013 17:48:10 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</guid>
+				<description>&lt;p&gt;See also: &lt;a href=&#34;http://blog.codahale.com/2005/11/24/a-ruby-howto-writing-a-method-that-uses-code-blocks/&#34;&gt;A Ruby HOWTO: Writing A Method That Uses Code Blocks&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;# Simple wrapper to allow retries for HTTP requests - prolongs daemon life.&#xA;def with_http_retries(&amp;amp;block)&#xA;  begin&#xA;    yield&#xA;  rescue Errno::ECONNREFUSED, SocketError, Net::ReadTimeout&#xA;    DaemonKit.logger.error &amp;quot;Cannot reach [#{@service_url}]. Retrying in #{@retry_seconds} seconds.&amp;quot;&#xA;    sleep @retry_seconds&#xA;    retry&#xA;  end&#xA;end&#xA;&#xA;# DRYing up the connection params&#xA;@request_params = [@service_url,&#xA;      { headers: { &amp;quot;Authorization&amp;quot; =&amp;gt; &amp;quot;Token token=#{api_key}&amp;quot; }, timeout: 5 }]&#xA;&#xA;loop do&#xA;  response = with_http_retries { HTTParty.get *@request_params }&#xA;&#xA;  puts JSON.parse(response.body)&#xA;&#xA;  sleep @delay_seconds&#xA;end&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases</title>
+				<link>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</link>
+				<pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</guid>
+				<description>&lt;h2 id=&#34;symptoms&#34;&gt;Symptoms&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You just rebooted and suddenly PostgreSQL isn&amp;rsquo;t responding&lt;/li&gt;&#xA;&lt;li&gt;Restarting postgres fails due to a &amp;ldquo;Your data files are incompatible with the current version of Postgres&amp;rdquo; error.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;prescription&#34;&gt;Prescription&lt;/h2&gt;&#xA;&lt;p&gt;There&amp;rsquo;s a utility that comes with Postgres named &lt;code&gt;pg_upgrade&lt;/code&gt; which should sort you out.  In order to work it you&amp;rsquo;ll need to create and initialize a new postgres data directory and then call &lt;code&gt;pg_upgrade&lt;/code&gt; and pass it paths for the old binaries, new binaries, old data directory, and new data directory.  Read the script below for an example.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Fortune in Golang - Proof of Concept</title>
+				<link>https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</link>
+				<pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</guid>
+				<description>&lt;p&gt;This is what I built at today&amp;rsquo;s Memphis Hackathon.  Thanks a billion to the Memphis Makers and their MakerSpace!  There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;package main&#xA;&#xA;import (&#xA;    &amp;quot;bufio&amp;quot;&#xA;    &amp;quot;fmt&amp;quot;&#xA;    &amp;quot;os&amp;quot;&#xA;)&#xA;&#xA;func main() {&#xA;    fmt.Println(nthFortune(0))&#xA;}&#xA;&#xA;func nthFortune(n int) string {&#xA;    filename := &amp;quot;/usr/local/Cellar/fortune/9708/share/games/fortunes/pets&amp;quot;&#xA;    theFile, _ := os.Open(filename)&#xA;    fileBuf := bufio.NewReader(theFile)&#xA;&#xA;    for i := 0; i &amp;lt; n; i++  {&#xA;      fileBuf.ReadString(&#39;%&#39;)&#xA;    }&#xA;&#xA;    theLine, _ := fileBuf.ReadString(&#39;%&#39;)&#xA;    cutoff := len(theLine) - 1&#xA;&#xA;    return theLine[:cutoff]&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;output&#34;&gt;Output&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;# go run fortune.go&#xA;Cats, no less liquid than their shadows, offer no angles to the wind.       &#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Favorite Ruby console tweaks to make my job easier - pry edition</title>
+				<link>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</link>
+				<pubDate>Thu, 25 Apr 2013 16:22:00 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</guid>
+				<description>&lt;p&gt;My current project involves a lot of data coming in from a legacy system.  Luckily I have the production web site of the legacy system available to compare against at any time.  These two things are helping me out a lot for spot checking.&lt;/p&gt;&#xA;&lt;p&gt;I put them both in my &lt;code&gt;~/.pryrc&lt;/code&gt; file so that I always have them locally and I don&amp;rsquo;t have to pollute shared codebases with my pet tools.  &lt;a href=&#34;https://github.com/pry/pry&#34;&gt;Pry&lt;/a&gt; is a really awesome alternative to &lt;code&gt;irb&lt;/code&gt;, by the way.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>_why&#39;s return</title>
+				<link>https://dpritchett.net/posts/2013-04-19-whys-return/</link>
+				<pubDate>Fri, 19 Apr 2013 01:43:05 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-04-19-whys-return/</guid>
+				<description>&lt;p&gt;&amp;ldquo;If anyone wants to hook their actual printer up to _why’s queue (which I’m pretty sure is what he intended), iandennismiller transcribed the OCaml program in SPOOL/HOMEWORK which polls whytheluckystiff.net and sends the PCL files to your printer: &lt;a href=&#34;https://github.com/cwales/cwales.github.com/pull/4&#34;&gt;https://github.com/cwales/cwales.github.com/pull/4&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It’s quite magical. I was woken up this morning by my printer, when the first pages were being published. Now every 5, 10, or 15 minutes my printer starts clanking away (it’s an old one) and a brand new page slowly emerges. Great way to read a novel, if that’s what it is.&amp;rdquo;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

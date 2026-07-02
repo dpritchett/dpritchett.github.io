@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>golang on Daniel Pritchett&#39;s Homepage</title>
-    <link>https://dpritchett.net/tags/golang/</link>
-    <description>Recent content in golang on Daniel Pritchett&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
-    <lastBuildDate>Mon, 13 May 2013 15:00:05 +0000</lastBuildDate>
-    
-	<atom:link href="https://dpritchett.net/tags/golang/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Fortune in Golang - Proof of Concept</title>
-      <link>https://dpritchett.net/posts/2013-05-13-fortune-in-golang-proof-of-concept/</link>
-      <pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-05-13-fortune-in-golang-proof-of-concept/</guid>
-      <description>This is what I built at today&amp;rsquo;s Memphis Hackathon. Thanks a billion to the Memphis Makers and their MakerSpace! There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.
-package main import ( &amp;quot;bufio&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;os&amp;quot; ) func main() { fmt.Println(nthFortune(0)) } func nthFortune(n int) string { filename := &amp;quot;/usr/local/Cellar/fortune/9708/share/games/fortunes/pets&amp;quot; theFile, _ := os.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Golang on Daniel Pritchett&#39;s Homepage</title>
+		<link>https://dpritchett.net/tags/golang/</link>
+		<description>Recent content in Golang on Daniel Pritchett&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
+		
+		
+			<lastBuildDate>Mon, 13 May 2013 15:00:05 +0000</lastBuildDate>
+		
+			<atom:link href="https://dpritchett.net/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Fortune in Golang - Proof of Concept</title>
+				<link>https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</link>
+				<pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</guid>
+				<description>&lt;p&gt;This is what I built at today&amp;rsquo;s Memphis Hackathon.  Thanks a billion to the Memphis Makers and their MakerSpace!  There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;package main&#xA;&#xA;import (&#xA;    &amp;quot;bufio&amp;quot;&#xA;    &amp;quot;fmt&amp;quot;&#xA;    &amp;quot;os&amp;quot;&#xA;)&#xA;&#xA;func main() {&#xA;    fmt.Println(nthFortune(0))&#xA;}&#xA;&#xA;func nthFortune(n int) string {&#xA;    filename := &amp;quot;/usr/local/Cellar/fortune/9708/share/games/fortunes/pets&amp;quot;&#xA;    theFile, _ := os.Open(filename)&#xA;    fileBuf := bufio.NewReader(theFile)&#xA;&#xA;    for i := 0; i &amp;lt; n; i++  {&#xA;      fileBuf.ReadString(&#39;%&#39;)&#xA;    }&#xA;&#xA;    theLine, _ := fileBuf.ReadString(&#39;%&#39;)&#xA;    cutoff := len(theLine) - 1&#xA;&#xA;    return theLine[:cutoff]&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;output&#34;&gt;Output&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;# go run fortune.go&#xA;Cats, no less liquid than their shadows, offer no angles to the wind.       &#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+	</channel>
 </rss>

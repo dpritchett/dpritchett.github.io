@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>writing on Daniel Pritchett&#39;s Homepage</title>
-    <link>https://dpritchett.net/tags/writing/</link>
-    <description>Recent content in writing on Daniel Pritchett&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
-    <lastBuildDate>Wed, 23 Jan 2019 14:33:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://dpritchett.net/tags/writing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Build Chatbot Interactions — Book Available to Order Today!</title>
-      <link>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</link>
-      <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
-      
-      <guid>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</guid>
-      <description>I just shipped the first draft of my multi-year book project a few weeks ago and the beta release is available for download now! Check it out and give me a shout 😃
-Build Chatbot Interactions: Responsive, Intuitive Interfaces with Ruby  </description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Writing on Daniel Pritchett&#39;s Homepage</title>
+		<link>https://dpritchett.net/tags/writing/</link>
+		<description>Recent content in Writing on Daniel Pritchett&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
+		
+		
+			<lastBuildDate>Wed, 23 Jan 2019 14:33:00 -0600</lastBuildDate>
+		
+			<atom:link href="https://dpritchett.net/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Build Chatbot Interactions — Book Available to Order Today!</title>
+				<link>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</link>
+				<pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
+				<guid>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</guid>
+				<description>&lt;p&gt;I just shipped the first draft of my multi-year book project a few weeks ago and the beta release is &lt;a href=&#34;https://pragprog.com/book/dpchat/build-chatbot-interactions&#34;&gt;available for download&lt;/a&gt; now! Check it out and give me a shout 😃&lt;/p&gt;&#xA;&lt;p style=&#34;text-align: center; width: 60%;&#34;&gt;&#xA;&lt;a href=&#34;https://pragprog.com/book/dpchat/build-chatbot-interactions&#34;&gt;&#xA;&#x9;Build Chatbot Interactions: Responsive, Intuitive Interfaces with Ruby&#xA;&#x9;&lt;img alt=&#34;Book cover screenshot&#34; src=&#34;https://dpritchett.net/images/botbook/dpchat_xlargebeta.jpg&#34; style=&#34;width: 190px;&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

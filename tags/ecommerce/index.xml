@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ecommerce on Daniel Pritchett&#39;s Homepage</title>
-    <link>https://dpritchett.net/tags/ecommerce/</link>
-    <description>Recent content in ecommerce on Daniel Pritchett&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
-    <lastBuildDate>Wed, 19 Nov 2014 16:40:55 +0000</lastBuildDate>
-    
-	<atom:link href="https://dpritchett.net/tags/ecommerce/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>I&#39;m Guest Posting on Spree and Neo4j for GraphStory.com</title>
-      <link>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</link>
-      <pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</guid>
-      <description>I&amp;rsquo;ve recently been working with some friends at a local startup called Graph Story. They provide a hosted graph database solution using Neo4j. They are looking to build up some introductory content to help developers get started with graph databases, so I wrote them a series of posts. Here&amp;rsquo;s the first in the series: Graph Kit for Ruby Part 1: Let’s Build a Recommendation Engine for a Spree Store.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Ecommerce on Daniel Pritchett&#39;s Homepage</title>
+		<link>https://dpritchett.net/tags/ecommerce/</link>
+		<description>Recent content in Ecommerce on Daniel Pritchett&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
+		
+		
+			<lastBuildDate>Wed, 19 Nov 2014 16:40:55 +0000</lastBuildDate>
+		
+			<atom:link href="https://dpritchett.net/tags/ecommerce/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>I&#39;m Guest Posting on Spree and Neo4j for GraphStory.com</title>
+				<link>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</link>
+				<pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve recently been working with some friends at a local startup called Graph Story.  They provide a hosted graph database solution using Neo4j.  They are looking to build up some introductory content to help developers get started with graph databases, so I wrote them a series of posts.  Here&amp;rsquo;s the first in the series: &lt;a href=&#34;https://www.engineyard.com/blog/graph-kit-for-ruby-deployment-with-graph-story-engine-yard&#34;&gt;Graph Kit for Ruby Part 1: Let’s Build a Recommendation Engine for a Spree Store&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

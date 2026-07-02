@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>community on Daniel Pritchett&#39;s Homepage</title>
-    <link>https://dpritchett.net/tags/community/</link>
-    <description>Recent content in community on Daniel Pritchett&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
-    <lastBuildDate>Mon, 20 Feb 2017 13:29:12 -0600</lastBuildDate>
-    
-	<atom:link href="https://dpritchett.net/tags/community/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Get Excited About Southeast Ruby Conference!</title>
-      <link>https://dpritchett.net/posts/southeast-ruby-conf/</link>
-      <pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
-      
-      <guid>https://dpritchett.net/posts/southeast-ruby-conf/</guid>
-      <description>My good buddy and local Ruby luminary Jason Charnes has recently announced that he&amp;rsquo;s bringing the Ruby conference circuit back to Tennessee! Do yourselves a favor and go sign up right now at SoutheastRuby.com!
-With Avdi Grimm as the first announced keynote and a cool venue called Ruby in Nashville it&amp;rsquo;s sure to be a godo time. Plus, my personal experience with PyTennessee has convinced me that Nashville is generally a pretty cool spot to spend a weekend.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Community on Daniel Pritchett&#39;s Homepage</title>
+		<link>https://dpritchett.net/tags/community/</link>
+		<description>Recent content in Community on Daniel Pritchett&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
+		
+		
+			<lastBuildDate>Mon, 20 Feb 2017 13:29:12 -0600</lastBuildDate>
+		
+			<atom:link href="https://dpritchett.net/tags/community/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Get Excited About Southeast Ruby Conference!</title>
+				<link>https://dpritchett.net/posts/southeast-ruby-conf/</link>
+				<pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
+				<guid>https://dpritchett.net/posts/southeast-ruby-conf/</guid>
+				<description>&lt;p&gt;My good buddy and &lt;a href=&#34;https://twitter.com/jmcharnes&#34;&gt;local Ruby luminary Jason Charnes&lt;/a&gt; has recently announced that he&amp;rsquo;s bringing the Ruby conference circuit back to Tennessee!  Do yourselves a favor and go sign up right now at &lt;a href=&#34;https://southeastruby.com/&#34;&gt;SoutheastRuby.com&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;With &lt;a href=&#34;http://www.virtuouscode.com/&#34;&gt;Avdi Grimm as the first announced keynote&lt;/a&gt; and a cool venue called Ruby in Nashville it&amp;rsquo;s sure to be a godo time.  Plus, my personal experience with PyTennessee has convinced me that Nashville is generally a pretty cool spot to spend a weekend.  See you there!&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

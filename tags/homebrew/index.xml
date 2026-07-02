@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>homebrew on Daniel Pritchett&#39;s Homepage</title>
-    <link>https://dpritchett.net/tags/homebrew/</link>
-    <description>Recent content in homebrew on Daniel Pritchett&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
-    <lastBuildDate>Wed, 03 Jul 2013 16:16:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://dpritchett.net/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases</title>
-      <link>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</link>
-      <pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</guid>
-      <description>Symptoms  You just rebooted and suddenly PostgreSQL isn&amp;rsquo;t responding Restarting postgres fails due to a &amp;ldquo;Your data files are incompatible with the current version of Postgres&amp;rdquo; error.  Prescription There&amp;rsquo;s a utility that comes with Postgres named pg_upgrade which should sort you out. In order to work it you&amp;rsquo;ll need to create and initialize a new postgres data directory and then call pg_upgrade and pass it paths for the old binaries, new binaries, old data directory, and new data directory.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Homebrew on Daniel Pritchett&#39;s Homepage</title>
+		<link>https://dpritchett.net/tags/homebrew/</link>
+		<description>Recent content in Homebrew on Daniel Pritchett&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
+		
+		
+			<lastBuildDate>Wed, 03 Jul 2013 16:16:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://dpritchett.net/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases</title>
+				<link>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</link>
+				<pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</guid>
+				<description>&lt;h2 id=&#34;symptoms&#34;&gt;Symptoms&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You just rebooted and suddenly PostgreSQL isn&amp;rsquo;t responding&lt;/li&gt;&#xA;&lt;li&gt;Restarting postgres fails due to a &amp;ldquo;Your data files are incompatible with the current version of Postgres&amp;rdquo; error.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;prescription&#34;&gt;Prescription&lt;/h2&gt;&#xA;&lt;p&gt;There&amp;rsquo;s a utility that comes with Postgres named &lt;code&gt;pg_upgrade&lt;/code&gt; which should sort you out.  In order to work it you&amp;rsquo;ll need to create and initialize a new postgres data directory and then call &lt;code&gt;pg_upgrade&lt;/code&gt; and pass it paths for the old binaries, new binaries, old data directory, and new data directory.  Read the script below for an example.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

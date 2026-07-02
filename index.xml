@@ -1,228 +1,159 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Daniel Pritchett&#39;s Homepage</title>
-    <link>https://dpritchett.net/</link>
-    <description>Recent content on Daniel Pritchett&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
-    <lastBuildDate>Mon, 07 Mar 2022 12:41:51 -0600</lastBuildDate>
-    
-	<atom:link href="https://dpritchett.net/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Professional Resume</title>
-      <link>https://dpritchett.net/resume/</link>
-      <pubDate>Mon, 07 Mar 2022 12:41:51 -0600</pubDate>
-      
-      <guid>https://dpritchett.net/resume/</guid>
-      <description>Tech Lead - Observability at Rebellion Defense
-Summary Cloud systems implementation and management. Deep background in Ruby, AWS, Go, Terraform, and Kubernetes. Developer tooling and chatops expert.
-Experience Rebellion Defense Technical Lead - Observability 2022 - Present
- Leading a team of engineers in delivering observability services and internal products  Senior Backend Engineer 2021 - 2022
- Stabilized multi-vendor joint integration efforts with hands-on observability leadership and automation of data interchange formats Data engineering for ML exploration with Python and Go Engineering and Project management for cross-team platform solutions  CrowdStrike Senior Engineer 2020 - 2021</description>
-    </item>
-    
-    <item>
-      <title>Reading List for Early Career Engineers</title>
-      <link>https://dpritchett.net/posts/reading-list-for-early-career-engineers/</link>
-      <pubDate>Tue, 02 Apr 2019 09:32:05 -0500</pubDate>
-      
-      <guid>https://dpritchett.net/posts/reading-list-for-early-career-engineers/</guid>
-      <description>For the past few years I&amp;rsquo;ve been lucky enough to get to work with #VetsWhoCode, a nonprofit dedicated to training and supporting veterans in transitioning to careers as civilian technologists. Talking with a current mentoring partner has had me suggesting an unreasonable number of interesting books. Each of the books we read help us become better, more capable people but no one&amp;rsquo;s going to have time to read all the books I&amp;rsquo;ve read &amp;mdash; you&amp;rsquo;ve got your own life to live!</description>
-    </item>
-    
-    <item>
-      <title>Build Chatbot Interactions — Book Available to Order Today!</title>
-      <link>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</link>
-      <pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
-      
-      <guid>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</guid>
-      <description>I just shipped the first draft of my multi-year book project a few weeks ago and the beta release is available for download now! Check it out and give me a shout 😃
-Build Chatbot Interactions: Responsive, Intuitive Interfaces with Ruby  </description>
-    </item>
-    
-    <item>
-      <title>Revisiting the Agile Manifesto in a Post-DevOps World</title>
-      <link>https://dpritchett.net/posts/revisiting-agile-manifesto-post-devops-world/</link>
-      <pubDate>Sun, 21 Oct 2018 14:43:18 -0500</pubDate>
-      
-      <guid>https://dpritchett.net/posts/revisiting-agile-manifesto-post-devops-world/</guid>
-      <description>Agile in the age of serverless, &amp;ldquo;cloud native&amp;rdquo;, and continuous delivery I&amp;rsquo;ve been reading through a bunch of lean manufacturing and DevOps literature recently, namely The Goal, The Phoenix Project (again!), and now Continuous Delivery. The Agile Manifesto is referred to a good bit in the latter two texts, and it&amp;rsquo;s gotten me wondering how well the seventeen-year old chestnuts hold up.
-Taken as a whole, the manifesto feels timeless and every bit as relevant as it was at the dawn of this new century.</description>
-    </item>
-    
-    <item>
-      <title>Stream Live Coding With Twitch</title>
-      <link>https://dpritchett.net/posts/stream-live-coding-with-twitch/</link>
-      <pubDate>Sun, 22 Apr 2018 13:13:00 -0500</pubDate>
-      
-      <guid>https://dpritchett.net/posts/stream-live-coding-with-twitch/</guid>
-      <description>Why Livestream?    So far Twitch streaming&#39;s gotten a good 50 people to check out this book project.   Livestreaming seems primarily popular among gamers but there is a growing niche for programming-oriented livestreams. I&amp;rsquo;m more into programming than gaming at this point in my life, so that&amp;rsquo;s what I&amp;rsquo;m streaming. Returning readers will already know about my upcoming book for the Pragmatic Programmers publishing company on chatbots.</description>
-    </item>
-    
-    <item>
-      <title>Research Update: Serverless Computing, Kubernetes, Human Interfaces</title>
-      <link>https://dpritchett.net/posts/researching-serverless-computing/</link>
-      <pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
-      
-      <guid>https://dpritchett.net/posts/researching-serverless-computing/</guid>
-      <description>I&amp;rsquo;ve gotten into a lot of research at work and at home. I&amp;rsquo;ll plant a little signpost here to start the log and then push out little updates as the research progresses.
-Lambdas and Serverless Functions I wrote more on this for the Clear Function blog at How Can Serverless Functions Help Your Systems?
-Here are some of the key quotes:
- What’s so great about a serverless function?</description>
-    </item>
-    
-    <item>
-      <title>Hearing Aids Are Cool</title>
-      <link>https://dpritchett.net/posts/hearing-aids-are-cool/</link>
-      <pubDate>Sun, 03 Sep 2017 10:22:25 -0500</pubDate>
-      
-      <guid>https://dpritchett.net/posts/hearing-aids-are-cool/</guid>
-      <description>&lt;p&gt;Personal story time! I&amp;rsquo;ve been wearing hearing aids since the 3rd grade. My folks drove me down to Florida State University to get a hearing test and a fitting for some new aids. I lost one of my first pairs in a cardboard box in a cabin in the woods and my parents didn&amp;rsquo;t even kill me. In the intervening 30 years I&amp;rsquo;ve been through a few sets of aids. My first few sets were &lt;a href=&#34;https://www.google.com/search?tbm=isch&amp;amp;amp;q=itc+hearing+aids&#34;&gt;in-the-canal&lt;/a&gt; (ITC) aids. My current set is a behind-the-ear (BTE) set.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Book update: meme generator chapter in progress</title>
-      <link>https://dpritchett.net/posts/chatbot-book-update/</link>
-      <pubDate>Sun, 13 Aug 2017 18:54:32 -0500</pubDate>
-      
-      <guid>https://dpritchett.net/posts/chatbot-book-update/</guid>
-      <description>Been a fun Sunday afternoon working on my chat bots book. Here&amp;#39;s a sneak preview. I may demo this section at @southeastruby - come say hi! pic.twitter.com/rrZ9aWIg1i
-&amp;mdash; Daniel Pritchett (@DPritchett) August 13, 2017</description>
-    </item>
-    
-    <item>
-      <title>Get Excited About Southeast Ruby Conference!</title>
-      <link>https://dpritchett.net/posts/southeast-ruby-conf/</link>
-      <pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
-      
-      <guid>https://dpritchett.net/posts/southeast-ruby-conf/</guid>
-      <description>My good buddy and local Ruby luminary Jason Charnes has recently announced that he&amp;rsquo;s bringing the Ruby conference circuit back to Tennessee! Do yourselves a favor and go sign up right now at SoutheastRuby.com!
-With Avdi Grimm as the first announced keynote and a cool venue called Ruby in Nashville it&amp;rsquo;s sure to be a godo time. Plus, my personal experience with PyTennessee has convinced me that Nashville is generally a pretty cool spot to spend a weekend.</description>
-    </item>
-    
-    <item>
-      <title>The first rule of software projects</title>
-      <link>https://dpritchett.net/posts/first-rule-of-software-projects/</link>
-      <pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
-      
-      <guid>https://dpritchett.net/posts/first-rule-of-software-projects/</guid>
-      <description>Years of building software have convinced me of one very important mantra:
- If we had to ship tomorrow, we could.
- I came by this one the hard way. Remember that software folks are notorious optimists. This is an imprecise discipline we work with. Your six week project might turn into a four month project for perfectly valid reasons. Teams can run out of people or money for various reasons.</description>
-    </item>
-    
-    <item>
-      <title>I&#39;m Guest Posting on Spree and Neo4j for GraphStory.com</title>
-      <link>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</link>
-      <pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</guid>
-      <description>I&amp;rsquo;ve recently been working with some friends at a local startup called Graph Story. They provide a hosted graph database solution using Neo4j. They are looking to build up some introductory content to help developers get started with graph databases, so I wrote them a series of posts. Here&amp;rsquo;s the first in the series: Graph Kit for Ruby Part 1: Let’s Build a Recommendation Engine for a Spree Store.</description>
-    </item>
-    
-    <item>
-      <title>Two vim tips I hope to actually remember this time</title>
-      <link>https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</link>
-      <pubDate>Wed, 18 Jun 2014 13:53:10 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</guid>
-      <description>Read from an external command into the current buffer :read prints the results of an external command into the current buffer.
-Example :read ! cat /etc/passwd will copy the /etc/passwd file into the current buffer.
-Pasting yanked text into the command input Yank a word (e.g. yw to yank the word under the cursor) Enter the vim command line via : Ctrl-R, &amp;quot; to paste from the default register.</description>
-    </item>
-    
-    <item>
-      <title>Lightweight Spree testing and deployment with Wercker and Heroku</title>
-      <link>https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</link>
-      <pubDate>Thu, 27 Feb 2014 18:49:35 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</guid>
-      <description>Continuous deployment to Heroku has been a huge help on my last two projects. You might find it useful too!</description>
-    </item>
-    
-    <item>
-      <title>Endless HTTParty retries in Ruby with a simple block</title>
-      <link>https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</link>
-      <pubDate>Tue, 09 Jul 2013 17:48:10 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</guid>
-      <description>See also: A Ruby HOWTO: Writing A Method That Uses Code Blocks
-# Simple wrapper to allow retries for HTTP requests - prolongs daemon life. def with_http_retries(&amp;amp;block) begin yield rescue Errno::ECONNREFUSED, SocketError, Net::ReadTimeout DaemonKit.logger.error &amp;quot;Cannot reach [#{@service_url}]. Retrying in #{@retry_seconds} seconds.&amp;quot; sleep @retry_seconds retry end end # DRYing up the connection params @request_params = [@service_url, { headers: { &amp;quot;Authorization&amp;quot; =&amp;gt; &amp;quot;Token token=#{api_key}&amp;quot; }, timeout: 5 }] loop do response = with_http_retries { HTTParty.</description>
-    </item>
-    
-    <item>
-      <title>Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases</title>
-      <link>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</link>
-      <pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</guid>
-      <description>Symptoms  You just rebooted and suddenly PostgreSQL isn&amp;rsquo;t responding Restarting postgres fails due to a &amp;ldquo;Your data files are incompatible with the current version of Postgres&amp;rdquo; error.  Prescription There&amp;rsquo;s a utility that comes with Postgres named pg_upgrade which should sort you out. In order to work it you&amp;rsquo;ll need to create and initialize a new postgres data directory and then call pg_upgrade and pass it paths for the old binaries, new binaries, old data directory, and new data directory.</description>
-    </item>
-    
-    <item>
-      <title>Fortune in Golang - Proof of Concept</title>
-      <link>https://dpritchett.net/posts/2013-05-13-fortune-in-golang-proof-of-concept/</link>
-      <pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-05-13-fortune-in-golang-proof-of-concept/</guid>
-      <description>This is what I built at today&amp;rsquo;s Memphis Hackathon. Thanks a billion to the Memphis Makers and their MakerSpace! There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.
-package main import ( &amp;quot;bufio&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;os&amp;quot; ) func main() { fmt.Println(nthFortune(0)) } func nthFortune(n int) string { filename := &amp;quot;/usr/local/Cellar/fortune/9708/share/games/fortunes/pets&amp;quot; theFile, _ := os.</description>
-    </item>
-    
-    <item>
-      <title>Favorite Ruby console tweaks to make my job easier - pry edition</title>
-      <link>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/</link>
-      <pubDate>Thu, 25 Apr 2013 16:22:00 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier-pry-edition/</guid>
-      <description>My current project involves a lot of data coming in from a legacy system. Luckily I have the production web site of the legacy system available to compare against at any time. These two things are helping me out a lot for spot checking.
-I put them both in my ~/.pryrc file so that I always have them locally and I don&amp;rsquo;t have to pollute shared codebases with my pet tools.</description>
-    </item>
-    
-    <item>
-      <title>_why&#39;s return</title>
-      <link>https://dpritchett.net/posts/2013-04-19-whys-return/</link>
-      <pubDate>Fri, 19 Apr 2013 01:43:05 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/posts/2013-04-19-whys-return/</guid>
-      <description>&amp;ldquo;If anyone wants to hook their actual printer up to _why’s queue (which I’m pretty sure is what he intended), iandennismiller transcribed the OCaml program in SPOOL/HOMEWORK which polls whytheluckystiff.net and sends the PCL files to your printer: https://github.com/cwales/cwales.github.com/pull/4
-It’s quite magical. I was woken up this morning by my printer, when the first pages were being published. Now every 5, 10, or 15 minutes my printer starts clanking away (it’s an old one) and a brand new page slowly emerges.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://dpritchett.net/learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/learning/</guid>
-      <description>Act now supplies are limited  .content { color: white; text-align: center; } .embiggen { font-size: xx-large; } .bumper-top { margin-top: 20px; } .bumper-bottom { margin-bottom: 20px; } .content li { margin: 15px; } .content a,.content a:visited { color: blue; } .blinking { animation:blinkingText 0.8s infinite; } .kinetic { font-style: italic; } .spaced { margin: 20px; } @keyframes blinkingText{ 0%{ color: white; } 49%{ color: transparent; } 50%{ color: transparent; } 99%{ color: transparent; } 100%{ color: white; } } /* ============================================================================================== SED Innovations https://sed.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://dpritchett.net/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/about/</guid>
-      <description>Hi there, I&amp;rsquo;m Daniel Pritchett. I help companies build internet-first software for happy customers.
-I wrote a book called Natural Language Chatbots: Create Responsive, Intuitive Interfaces in Ruby. Pragmatic Publishers shipped it in 2019.
-Shoot me an email!</description>
-    </item>
-    
-    <item>
-      <title>Build Chatbot Interactions</title>
-      <link>https://dpritchett.net/book/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dpritchett.net/book/</guid>
-      <description>I&amp;rsquo;m proud to announce that I&amp;rsquo;ve finally finished writing my first book as of Spring 2019:
-Build Chatbot Interactions: Responsive, Intuitive Interfaces with Ruby. Copyright 2019, Pragmatic Bookshelf.
- 🛒 Direct purchase. This is the best way to support the book! You can find both ebook and print copies. Discuss on GoodReads Find a copy on Amazon      The next step in the evolution of user interfaces is here.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Daniel Pritchett&#39;s Homepage</title>
+		<link>https://dpritchett.net/</link>
+		<description>Recent content on Daniel Pritchett&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>[CC-BY](https://creativecommons.org/licenses/by/4.0/)</copyright>
+		
+		
+			<lastBuildDate>Mon, 07 Mar 2022 12:41:51 -0600</lastBuildDate>
+		
+			<atom:link href="https://dpritchett.net/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Professional Resume</title>
+				<link>https://dpritchett.net/resume/</link>
+				<pubDate>Mon, 07 Mar 2022 12:41:51 -0600</pubDate>
+				<guid>https://dpritchett.net/resume/</guid>
+				<description>&lt;p&gt;Tech Lead - Observability at Rebellion Defense&lt;/p&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;Cloud systems implementation and management. Deep background in Ruby, AWS, Go, Terraform, and Kubernetes. Developer tooling and chatops expert.&lt;/p&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;rebellion-defense&#34;&gt;&lt;a href=&#34;https://rebelliondefense.com/&#34;&gt;Rebellion Defense&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;technical-lead---observability&#34;&gt;Technical Lead - Observability&lt;/h4&gt;&#xA;&lt;p&gt;&lt;em&gt;2022 - Present&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Leading a team of engineers in delivering observability services and internal products&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;senior-backend-engineer&#34;&gt;Senior Backend Engineer&lt;/h4&gt;&#xA;&lt;p&gt;&lt;em&gt;2021 - 2022&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Stabilized multi-vendor joint integration efforts with hands-on observability&#xA;leadership and automation of data interchange formats&lt;/li&gt;&#xA;&lt;li&gt;Data engineering for ML exploration with Python and Go&lt;/li&gt;&#xA;&lt;li&gt;Engineering and Project management for cross-team platform solutions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;crowdstrike&#34;&gt;&lt;a href=&#34;https://www.crowdstrike.com/&#34;&gt;CrowdStrike&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;senior-engineer&#34;&gt;Senior Engineer&lt;/h4&gt;&#xA;&lt;p&gt;&lt;em&gt;2020 - 2021&lt;/em&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Reading List for Early Career Engineers</title>
+				<link>https://dpritchett.net/posts/reading-list-for-early-career-engineers/</link>
+				<pubDate>Tue, 02 Apr 2019 09:32:05 -0500</pubDate>
+				<guid>https://dpritchett.net/posts/reading-list-for-early-career-engineers/</guid>
+				<description>&lt;p&gt;For the past few years I&amp;rsquo;ve been lucky enough to get to work with &lt;a href=&#34;https://vetswhocode.io/&#34;&gt;#VetsWhoCode&lt;/a&gt;, a nonprofit dedicated to training and supporting veterans in transitioning to careers as civilian technologists. Talking with a current mentoring partner has had me suggesting an unreasonable number of interesting books. Each of the books we read help us become better, more capable people but no one&amp;rsquo;s going to have time to read all the books I&amp;rsquo;ve read &amp;mdash; you&amp;rsquo;ve got your own life to live!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Build Chatbot Interactions — Book Available to Order Today!</title>
+				<link>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</link>
+				<pubDate>Wed, 23 Jan 2019 14:33:00 -0600</pubDate>
+				<guid>https://dpritchett.net/posts/build-chatbot-interactions-now-shipping/</guid>
+				<description>&lt;p&gt;I just shipped the first draft of my multi-year book project a few weeks ago and the beta release is &lt;a href=&#34;https://pragprog.com/book/dpchat/build-chatbot-interactions&#34;&gt;available for download&lt;/a&gt; now! Check it out and give me a shout 😃&lt;/p&gt;&#xA;&lt;p style=&#34;text-align: center; width: 60%;&#34;&gt;&#xA;&lt;a href=&#34;https://pragprog.com/book/dpchat/build-chatbot-interactions&#34;&gt;&#xA;&#x9;Build Chatbot Interactions: Responsive, Intuitive Interfaces with Ruby&#xA;&#x9;&lt;img alt=&#34;Book cover screenshot&#34; src=&#34;https://dpritchett.net/images/botbook/dpchat_xlargebeta.jpg&#34; style=&#34;width: 190px;&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Revisiting the Agile Manifesto in a Post-DevOps World</title>
+				<link>https://dpritchett.net/posts/revisiting-agile-manifesto-post-devops-world/</link>
+				<pubDate>Sun, 21 Oct 2018 14:43:18 -0500</pubDate>
+				<guid>https://dpritchett.net/posts/revisiting-agile-manifesto-post-devops-world/</guid>
+				<description>&lt;h2 id=&#34;agile-in-the-age-of-serverless-cloud-native-and-continuous-delivery&#34;&gt;Agile in the age of serverless, &amp;ldquo;cloud native&amp;rdquo;, and continuous delivery&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been reading through a bunch of lean manufacturing and DevOps literature recently, namely &lt;a href=&#34;https://smile.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884270610?sa-no-redirect=1&#34;&gt;&lt;em&gt;The Goal&lt;/em&gt;&lt;/a&gt;, &lt;a href=&#34;https://smile.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B078Y98RG8/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1540154499&amp;amp;sr=1-1&amp;amp;keywords=phoenix+project&#34;&gt;&lt;em&gt;The Phoenix Project&lt;/em&gt;&lt;/a&gt; (again!), and now &lt;a href=&#34;https://smile.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/ref=sr_1_4?s=books&amp;amp;ie=UTF8&amp;amp;qid=1540154527&amp;amp;sr=1-4&amp;amp;keywords=continuous+delivery&amp;amp;dpID=51NbiDn81NL&amp;amp;preST=_SX218_BO1,204,203,200_QL40_&amp;amp;dpSrc=srch&#34;&gt;&lt;em&gt;Continuous Delivery&lt;/em&gt;&lt;/a&gt;. &lt;a href=&#34;http://agilemanifesto.org/&#34;&gt;The Agile Manifesto&lt;/a&gt; is referred to a good bit in the latter two texts, and it&amp;rsquo;s gotten me wondering how well the seventeen-year old chestnuts hold up.&lt;/p&gt;&#xA;&lt;p&gt;Taken as a whole, the manifesto feels timeless and every bit as relevant as it was at the dawn of this new century. At the margins though &amp;mdash; there are spots where the advice falls short of what can really inspire growth in today&amp;rsquo;s landscape. Let&amp;rsquo;s walk through &lt;a href=&#34;http://agilemanifesto.org/principles.html&#34;&gt;the twelve principles&lt;/a&gt; one by one and see how they feel here in 2018:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Stream Live Coding With Twitch</title>
+				<link>https://dpritchett.net/posts/stream-live-coding-with-twitch/</link>
+				<pubDate>Sun, 22 Apr 2018 13:13:00 -0500</pubDate>
+				<guid>https://dpritchett.net/posts/stream-live-coding-with-twitch/</guid>
+				<description>&lt;h2 id=&#34;why-livestream&#34;&gt;Why Livestream?&lt;/h2&gt;&#xA;&lt;figure&gt;&#xA;&lt;a href=&#34;https://www.twitch.tv/pritchettbots&#34;&gt;&#xA;  &lt;img alt=&#34;Overview of the pritchettbots Twitch channel&#34; src=&#34;https://dpritchett.net/images/twitch/twitch-channel-view.png&#34; &gt;&#xA;&lt;/a&gt;&#xA;&lt;figcaption&gt;&#xA;  &lt;em&gt;So far Twitch streaming&#39;s gotten a good 50 people to check out this book project.&lt;/em&gt;&#xA;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;Livestreaming seems primarily popular among gamers but there is a growing niche for programming-oriented livestreams. I&amp;rsquo;m more into programming than gaming at this point in my life, so that&amp;rsquo;s what I&amp;rsquo;m streaming. Returning readers will already know about my upcoming book for the &lt;a href=&#34;https://pragprog.com/&#34;&gt;Pragmatic Programmers&lt;/a&gt; publishing company on chatbots. The working title is &lt;em&gt;Natural Language Chatbots: Create Responsive, Intuitive Interfaces in Ruby&lt;/em&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Research Update: Serverless Computing, Kubernetes, Human Interfaces</title>
+				<link>https://dpritchett.net/posts/researching-serverless-computing/</link>
+				<pubDate>Fri, 13 Apr 2018 07:20:06 -0500</pubDate>
+				<guid>https://dpritchett.net/posts/researching-serverless-computing/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve gotten into a lot of research at work and at home. I&amp;rsquo;ll plant a little signpost here to start the log and then push out little updates as the research progresses.&lt;/p&gt;&#xA;&lt;h2 id=&#34;lambdas-and-serverless-functions&#34;&gt;Lambdas and Serverless Functions&lt;/h2&gt;&#xA;&lt;p&gt;I wrote more on this for the Clear Function blog at &lt;a href=&#34;http://clearfunction.com/how-can-serverless-functions-help-your-systems/&#34;&gt;How Can Serverless Functions Help Your Systems?&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here are some of the key quotes:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;What’s so great about a serverless function?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Per-request pricing means you can compute ROI on your feature development. This is probably the biggest advance with Serverless pricing – now you can figure out exactly how much each microservice or function is used and how much it’s costing you month to month. This makes software investment decisions much easier.&lt;/li&gt;&#xA;&lt;li&gt;Easily separates bursty workloads from user-facing traffic.&#xA;Super useful for sysadmin tasks: Do this specific thing infrequently; don’t make me keep a whole server up forever.&lt;/li&gt;&#xA;&lt;li&gt;Good for highly variable infrequent workloads in general: Image thumbnailing and other media processing, ops alert handling, etc.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I also knocked together a few simple apps to test out Lambda usage. Here&amp;rsquo;s one called &lt;a href=&#34;https://github.com/dpritchett/emojiaas&#34;&gt;emojiaas&lt;/a&gt; that serves up emoji on demand.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hearing Aids Are Cool</title>
+				<link>https://dpritchett.net/posts/hearing-aids-are-cool/</link>
+				<pubDate>Sun, 03 Sep 2017 10:22:25 -0500</pubDate>
+				<guid>https://dpritchett.net/posts/hearing-aids-are-cool/</guid>
+				<description>&lt;p&gt;Personal story time! I&amp;rsquo;ve been wearing hearing aids since the 3rd grade. My folks drove me down to Florida State University to get a hearing test and a fitting for some new aids. I lost one of my first pairs in a cardboard box in a cabin in the woods and my parents didn&amp;rsquo;t even kill me. In the intervening 30 years I&amp;rsquo;ve been through a few sets of aids. My first few sets were &lt;a href=&#34;https://www.google.com/search?tbm=isch&amp;amp;q=itc+hearing+aids&#34;&gt;in-the-canal&lt;/a&gt; (ITC) aids. My current set is a behind-the-ear (BTE) set.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Book update: meme generator chapter in progress</title>
+				<link>https://dpritchett.net/posts/chatbot-book-update/</link>
+				<pubDate>Sun, 13 Aug 2017 18:54:32 -0500</pubDate>
+				<guid>https://dpritchett.net/posts/chatbot-book-update/</guid>
+				<description>&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Been a fun Sunday afternoon working on my chat bots book. Here&amp;#39;s a sneak preview. I may demo this section at &lt;a href=&#34;https://twitter.com/southeastruby&#34;&gt;@southeastruby&lt;/a&gt; - come say hi! &lt;a href=&#34;https://t.co/rrZ9aWIg1i&#34;&gt;pic.twitter.com/rrZ9aWIg1i&lt;/a&gt;&lt;/p&gt;&amp;mdash; Daniel Pritchett (@DPritchett) &lt;a href=&#34;https://twitter.com/DPritchett/status/896859372999102464&#34;&gt;August 13, 2017&lt;/a&gt;&lt;/blockquote&gt;&#xA;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;</description>
+			</item>
+			<item>
+				<title>Get Excited About Southeast Ruby Conference!</title>
+				<link>https://dpritchett.net/posts/southeast-ruby-conf/</link>
+				<pubDate>Mon, 20 Feb 2017 13:29:12 -0600</pubDate>
+				<guid>https://dpritchett.net/posts/southeast-ruby-conf/</guid>
+				<description>&lt;p&gt;My good buddy and &lt;a href=&#34;https://twitter.com/jmcharnes&#34;&gt;local Ruby luminary Jason Charnes&lt;/a&gt; has recently announced that he&amp;rsquo;s bringing the Ruby conference circuit back to Tennessee!  Do yourselves a favor and go sign up right now at &lt;a href=&#34;https://southeastruby.com/&#34;&gt;SoutheastRuby.com&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;With &lt;a href=&#34;http://www.virtuouscode.com/&#34;&gt;Avdi Grimm as the first announced keynote&lt;/a&gt; and a cool venue called Ruby in Nashville it&amp;rsquo;s sure to be a godo time.  Plus, my personal experience with PyTennessee has convinced me that Nashville is generally a pretty cool spot to spend a weekend.  See you there!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The first rule of software projects</title>
+				<link>https://dpritchett.net/posts/first-rule-of-software-projects/</link>
+				<pubDate>Mon, 21 Nov 2016 12:30:17 -0600</pubDate>
+				<guid>https://dpritchett.net/posts/first-rule-of-software-projects/</guid>
+				<description>&lt;p&gt;Years of building software have convinced me of one very important mantra:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If we had to ship tomorrow, we could.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I came by this one the hard way.  Remember that software folks are notorious optimists.  This is an imprecise discipline we work with.  Your six week project might turn into a four month project for perfectly valid reasons.  Teams can run out of people or money for various reasons.  In all of those cases, I want you to be ready to ship &lt;strong&gt;immediately&lt;/strong&gt; if necessary.  To do anything else is an unreasonable risk to the business value of the project.  As long as you&amp;rsquo;re ready to ship &lt;em&gt;something&lt;/em&gt; you&amp;rsquo;re ready to capture that business value and continue building on it.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>I&#39;m Guest Posting on Spree and Neo4j for GraphStory.com</title>
+				<link>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</link>
+				<pubDate>Wed, 19 Nov 2014 16:40:55 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2014-11-19-im-guest-posting-on-spree-and-neo4j-for-graphstorycom/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve recently been working with some friends at a local startup called Graph Story.  They provide a hosted graph database solution using Neo4j.  They are looking to build up some introductory content to help developers get started with graph databases, so I wrote them a series of posts.  Here&amp;rsquo;s the first in the series: &lt;a href=&#34;https://www.engineyard.com/blog/graph-kit-for-ruby-deployment-with-graph-story-engine-yard&#34;&gt;Graph Kit for Ruby Part 1: Let’s Build a Recommendation Engine for a Spree Store&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Two vim tips I hope to actually remember this time</title>
+				<link>https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</link>
+				<pubDate>Wed, 18 Jun 2014 13:53:10 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2014-06-18-two-vim-tips-i-hope-to-actually-remember-this-time/</guid>
+				<description>&lt;h1 id=&#34;read-from-an-external-command-into-the-current-buffer&#34;&gt;Read from an external command into the current buffer&lt;/h1&gt;&#xA;&lt;p&gt;&lt;code&gt;:read&lt;/code&gt; prints the results of an external command into the current buffer.&lt;/p&gt;&#xA;&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;&#xA;&lt;p&gt;&lt;code&gt;:read ! cat /etc/passwd&lt;/code&gt; will copy the &lt;code&gt;/etc/passwd&lt;/code&gt; file into the current buffer.&lt;/p&gt;&#xA;&lt;h1 id=&#34;pasting-yanked-text-into-the-command-input&#34;&gt;Pasting yanked text into the command input&lt;/h1&gt;&#xA;&lt;p&gt;Yank a word (e.g. &lt;code&gt;yw&lt;/code&gt; to yank the word under the cursor)&#xA;Enter the vim command line via &lt;code&gt;:&lt;/code&gt;&#xA;&lt;code&gt;Ctrl-R, &amp;quot;&lt;/code&gt; to paste from the default register.&lt;/p&gt;&#xA;&lt;p&gt;Note to self - read up on vim registers again!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Lightweight Spree testing and deployment with Wercker and Heroku</title>
+				<link>https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</link>
+				<pubDate>Thu, 27 Feb 2014 18:49:35 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2014-02-27-lightweight-spree-testing-and-deployment-with-wercker-and-heroku/</guid>
+				<description>&lt;p&gt;Continuous deployment to Heroku has been a huge help on my last two projects.  You might find it useful too!&lt;/p&gt;&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;85cb7d1081fa01314c711aae3e2a1509&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;</description>
+			</item>
+			<item>
+				<title>Endless HTTParty retries in Ruby with a simple block</title>
+				<link>https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</link>
+				<pubDate>Tue, 09 Jul 2013 17:48:10 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-07-09-endless-httparty-retries-in-ruby-with-a-simple-block/</guid>
+				<description>&lt;p&gt;See also: &lt;a href=&#34;http://blog.codahale.com/2005/11/24/a-ruby-howto-writing-a-method-that-uses-code-blocks/&#34;&gt;A Ruby HOWTO: Writing A Method That Uses Code Blocks&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;# Simple wrapper to allow retries for HTTP requests - prolongs daemon life.&#xA;def with_http_retries(&amp;amp;block)&#xA;  begin&#xA;    yield&#xA;  rescue Errno::ECONNREFUSED, SocketError, Net::ReadTimeout&#xA;    DaemonKit.logger.error &amp;quot;Cannot reach [#{@service_url}]. Retrying in #{@retry_seconds} seconds.&amp;quot;&#xA;    sleep @retry_seconds&#xA;    retry&#xA;  end&#xA;end&#xA;&#xA;# DRYing up the connection params&#xA;@request_params = [@service_url,&#xA;      { headers: { &amp;quot;Authorization&amp;quot; =&amp;gt; &amp;quot;Token token=#{api_key}&amp;quot; }, timeout: 5 }]&#xA;&#xA;loop do&#xA;  response = with_http_retries { HTTParty.get *@request_params }&#xA;&#xA;  puts JSON.parse(response.body)&#xA;&#xA;  sleep @delay_seconds&#xA;end&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases</title>
+				<link>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</link>
+				<pubDate>Wed, 03 Jul 2013 16:16:00 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/</guid>
+				<description>&lt;h2 id=&#34;symptoms&#34;&gt;Symptoms&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You just rebooted and suddenly PostgreSQL isn&amp;rsquo;t responding&lt;/li&gt;&#xA;&lt;li&gt;Restarting postgres fails due to a &amp;ldquo;Your data files are incompatible with the current version of Postgres&amp;rdquo; error.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;prescription&#34;&gt;Prescription&lt;/h2&gt;&#xA;&lt;p&gt;There&amp;rsquo;s a utility that comes with Postgres named &lt;code&gt;pg_upgrade&lt;/code&gt; which should sort you out.  In order to work it you&amp;rsquo;ll need to create and initialize a new postgres data directory and then call &lt;code&gt;pg_upgrade&lt;/code&gt; and pass it paths for the old binaries, new binaries, old data directory, and new data directory.  Read the script below for an example.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Fortune in Golang - Proof of Concept</title>
+				<link>https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</link>
+				<pubDate>Mon, 13 May 2013 15:00:05 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/</guid>
+				<description>&lt;p&gt;This is what I built at today&amp;rsquo;s Memphis Hackathon.  Thanks a billion to the Memphis Makers and their MakerSpace!  There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;package main&#xA;&#xA;import (&#xA;    &amp;quot;bufio&amp;quot;&#xA;    &amp;quot;fmt&amp;quot;&#xA;    &amp;quot;os&amp;quot;&#xA;)&#xA;&#xA;func main() {&#xA;    fmt.Println(nthFortune(0))&#xA;}&#xA;&#xA;func nthFortune(n int) string {&#xA;    filename := &amp;quot;/usr/local/Cellar/fortune/9708/share/games/fortunes/pets&amp;quot;&#xA;    theFile, _ := os.Open(filename)&#xA;    fileBuf := bufio.NewReader(theFile)&#xA;&#xA;    for i := 0; i &amp;lt; n; i++  {&#xA;      fileBuf.ReadString(&#39;%&#39;)&#xA;    }&#xA;&#xA;    theLine, _ := fileBuf.ReadString(&#39;%&#39;)&#xA;    cutoff := len(theLine) - 1&#xA;&#xA;    return theLine[:cutoff]&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;output&#34;&gt;Output&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;# go run fortune.go&#xA;Cats, no less liquid than their shadows, offer no angles to the wind.       &#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Favorite Ruby console tweaks to make my job easier - pry edition</title>
+				<link>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</link>
+				<pubDate>Thu, 25 Apr 2013 16:22:00 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/</guid>
+				<description>&lt;p&gt;My current project involves a lot of data coming in from a legacy system.  Luckily I have the production web site of the legacy system available to compare against at any time.  These two things are helping me out a lot for spot checking.&lt;/p&gt;&#xA;&lt;p&gt;I put them both in my &lt;code&gt;~/.pryrc&lt;/code&gt; file so that I always have them locally and I don&amp;rsquo;t have to pollute shared codebases with my pet tools.  &lt;a href=&#34;https://github.com/pry/pry&#34;&gt;Pry&lt;/a&gt; is a really awesome alternative to &lt;code&gt;irb&lt;/code&gt;, by the way.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>_why&#39;s return</title>
+				<link>https://dpritchett.net/posts/2013-04-19-whys-return/</link>
+				<pubDate>Fri, 19 Apr 2013 01:43:05 +0000</pubDate>
+				<guid>https://dpritchett.net/posts/2013-04-19-whys-return/</guid>
+				<description>&lt;p&gt;&amp;ldquo;If anyone wants to hook their actual printer up to _why’s queue (which I’m pretty sure is what he intended), iandennismiller transcribed the OCaml program in SPOOL/HOMEWORK which polls whytheluckystiff.net and sends the PCL files to your printer: &lt;a href=&#34;https://github.com/cwales/cwales.github.com/pull/4&#34;&gt;https://github.com/cwales/cwales.github.com/pull/4&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It’s quite magical. I was woken up this morning by my printer, when the first pages were being published. Now every 5, 10, or 15 minutes my printer starts clanking away (it’s an old one) and a brand new page slowly emerges. Great way to read a novel, if that’s what it is.&amp;rdquo;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>About Me</title>
+				<link>https://dpritchett.net/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://dpritchett.net/about/</guid>
+				<description>&lt;p&gt;Hi there, I&amp;rsquo;m Daniel Pritchett. I help companies build internet-first software for happy customers.&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;I wrote a book called &lt;a href=&#34;https://dpritchett.net/book/&#34;&gt;&lt;strong&gt;Natural Language Chatbots: Create Responsive, Intuitive Interfaces in Ruby&lt;/strong&gt;&lt;/a&gt;. Pragmatic Publishers shipped it in 2019.&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Shoot me an &lt;a href=&#34;mailto:daniel@dpritchett.net&#34;&gt;email&lt;/a&gt;!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Build Chatbot Interactions</title>
+				<link>https://dpritchett.net/book/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://dpritchett.net/book/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;m proud to announce that I&amp;rsquo;ve finally finished writing my first book as of Spring 2019:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://pragprog.com/book/dpchat/build-chatbot-interactions&#34;&gt;&lt;strong&gt;Build Chatbot Interactions: Responsive, Intuitive Interfaces with Ruby&lt;/strong&gt;&lt;/a&gt;. Copyright 2019, Pragmatic Bookshelf.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pragprog.com/book/dpchat/build-chatbot-interactions&#34;&gt;🛒 Direct purchase&lt;/a&gt;. This is the best way to support the book! You can find both ebook and print copies.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/44699886-build-chatbot-interactions&#34;&gt;Discuss on GoodReads&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Find a copy on &lt;a href=&#34;https://smile.amazon.com/Build-Chatbot-Interactions-Responsive-Interfaces/dp/1680506323&#34;&gt;Amazon&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div&gt;&#xA;&#x9;&lt;a href=&#34;https://pragprog.com/book/dpchat/build-chatbot-interactions&#34;&gt;&#xA;&#x9;&lt;div style=&#34;float: left; width: 33%;&#34;&gt;&#xA;&#x9;&#x9;&lt;img alt=&#34;Book cover screenshot&#34; src=&#34;https://dpritchett.net/images/botbook/dpchat_xlargebeta.jpg&#34; style=&#34;&#34; /&gt;&#xA;&#x9;&lt;/div&gt;&#xA;&#x9;&lt;div style=&#34;float: right; width: 66%;&#34;&gt;&#xA;&#x9;&#x9;&lt;blockquote&gt;&#xA;&#x9;&#x9;&#x9;&lt;p&gt;&#xA;&#x9;&#x9;&#x9;The next step in the evolution of user interfaces is here. Chatbots let your users interact with your service in their own natural language. Use free and open source tools along with Ruby to build creative, useful, and unexpected interactions for users. Take advantage of the Lita framework’s step-by-step implementation strategy to simplify bot development and testing. From novices to experts, chatbots are an area in which everyone can participate. Exercise your creativity by creating chatbot skills for communicating, information, and fun.&#xA;&#x9;&#x9;&#x9;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

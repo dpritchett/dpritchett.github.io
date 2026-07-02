@@ -3,36 +3,153 @@
 <html lang="en-us">
 
 <head>
-  <title>Daniel Pritchett</title>
+  <title>Daniel Pritchett&#39;s Homepage</title>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Notes on building cloud software and systems for humans" />
-  <meta name="author" content="Daniel Pritchett" />
-  <meta name="generator" content="Hugo 0.40.1" />
+
+<meta name="title" content="Fortune in Golang - Proof of Concept | Daniel Pritchett&#39;s Homepage" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="This is what I built at today’s Memphis Hackathon. Thanks a billion to the Memphis Makers and their MakerSpace! There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter." />
+<meta name="author" content="Daniel Pritchett" />
+<meta name="thumbnail" content="https://dpritchett.net/images/headshot_swing_128px.jpg" />
+<meta name="robots" content="index, follow" /> 
+
+
+<meta property="og:url" content="https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/">
+	<meta property="og:site_name" content="Daniel Pritchett&#39;s Homepage">
+	<meta property="og:title" content="Fortune in Golang - Proof of Concept">
+	<meta property="og:description" content="This is what I built at today’s Memphis Hackathon. Thanks a billion to the Memphis Makers and their MakerSpace! There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2013-05-13T15:00:05+00:00">
+		<meta property="article:modified_time" content="2013-05-13T15:00:05+00:00">
+		<meta property="article:tag" content="Golang">
+		<meta property="article:tag" content="Fortune">
+		<meta property="article:tag" content="Programming">
+		<meta property="article:tag" content="Go">
+		<meta property="og:image" content="https://dpritchett.net/images/headshot_swing_128px.jpg">
+
+
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://dpritchett.net/images/headshot_swing_128px.jpg">
+	<meta name="twitter:title" content="Fortune in Golang - Proof of Concept">
+	<meta name="twitter:description" content="This is what I built at today’s Memphis Hackathon. Thanks a billion to the Memphis Makers and their MakerSpace! There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.">
+
+
+<meta name="generator" content="Hugo 0.163.3">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css" integrity="sha512-+oRH6u1nDGSm3hH8poU85YFIVTdSnS2f+texdPGrURaJh8hzmhMiZrQth6l56P4ZQmxeZzd2DqVEMqQoJ8J89A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css" integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/v4-shims.min.css" integrity="sha512-ARfx5eajdcCAuWvuJrgUuJ6D25ON3KZRTCghNXXKeJldCQJ5bXS+6CvG2EhcFWITF95uwZydzpufSKvhmSpTxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
   <link rel="stylesheet" type="text/css" href="https://dpritchett.net/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="https://dpritchett.net/css/overrides.css" />
+
+  
+
+<script type="application/ld+json">
+
+
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "posts",
+    "name": "Fortune in Golang - Proof of Concept",
+    "headline": "Fortune in Golang - Proof of Concept",
+    "alternativeHeadline": "",
+    "description": "This is what I built at today’s Memphis Hackathon. Thanks a billion to the Memphis Makers and their MakerSpace! There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.",
+    "inLanguage": "en-us",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/"
+    },
+    "author" : {
+        "@type": "Person",
+        "name": "Daniel Pritchett",
+        "image": "https://dpritchett.net/images/headshot_swing.jpg",
+        "url": "https://dpritchett.net/",
+        "sameAs": [
+            "https://github.com/dpritchett",
+            "https://www.linkedin.com/in/danielpritchett/"
+        ]
+    },
+    "creator" : {
+        "@type": "Person",
+        "name": "Daniel Pritchett",
+        "image": "https://dpritchett.net/images/headshot_swing.jpg",
+        "url": "https://dpritchett.net/",
+        "sameAs": [
+            "https://github.com/dpritchett",
+            "https://www.linkedin.com/in/danielpritchett/"
+        ]
+    },
+    "accountablePerson" : {
+        "@type": "Person",
+        "name": "Daniel Pritchett",
+        "image": "https://dpritchett.net/images/headshot_swing.jpg",
+        "url": "https://dpritchett.net/",
+        "sameAs": [
+            "https://github.com/dpritchett",
+            "https://www.linkedin.com/in/danielpritchett/"
+        ]
+    },
+    "copyrightHolder" : "Daniel Pritchett\u0027s Homepage",
+    "copyrightYear" : "2013",
+    "dateCreated": "2013-05-13T15:00:05.00Z",
+    "datePublished": "2013-05-13T15:00:05.00Z",
+    "dateModified": "2013-05-13T15:00:05.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "Daniel Pritchett's Homepage",
+        "url": "https://dpritchett.net/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://dpritchett.net/images/headshot_swing.jpg",
+            "width":"800",
+            "height":"800"
+        }
+    },
+    "image": "https://dpritchett.net/images/headshot_swing.jpg",
+    "url" : "https://dpritchett.net/posts/2013-05-13-fortune-in-golang---proof-of-concept/",
+    "wordCount" : "115",
+    "keywords" : [ "golang" , "fortune" , "programming" , "go" ]
+}
+</script>
+
+
 </head>
 
 <body>
   <div id="container">
     <header>
-      <h1>
-                <a href="https://dpritchett.net/">Daniel Pritchett</a>
-            </h1>
-
+      <div id="banner">
+        <div class="col1">
+          <img id="banner-selfie" src="https://dpritchett.net/images/headshot_swing_128px.jpg" />
+        </div>
+        <div class="col2">
+          <h1 id="banner-title">
+            <a href="https://dpritchett.net/">Daniel Pritchett&rsquo;s Homepage</a>
+          </h1>
+        </div>
+      </div>
       <ul id="social-media">
         
-        <li><a href="https://twitter.com/dpritchett"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+        <li><a rel="me" href="https://github.com/dpritchett"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a></li>
          
-        <li><a href="https://www.linkedin.com/in/danielpritchett"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-         
-        <li><a href="https://github.com/dpritchett"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-           
+        <li><a rel="me" href="https://www.linkedin.com/in/danielpritchett"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+        
+        <li><a rel="me" href="https://hachyderm.io/@dpritchett"><i class="fab fa-mastodon fa-lg" aria-hidden="true"></i></a></li>
+          
       </ul>
       
-      <p><em>Notes on building cloud software and systems for humans by Daniel Pritchett.</em></p>
+      <p><em>Notes on building cloud software and systems for humans</em></p>
       
     </header>
 
@@ -52,6 +169,12 @@
             </a>
         </li>
         
+        <li>
+            <a class="" href="https://dpritchett.net/resume/">
+                <i class="fa-li fa  fa-lg"></i><span>Resume</span>
+            </a>
+        </li>
+        
     </ul>
 </nav>
 
@@ -61,8 +184,9 @@
 
 
 <article>
-
-    <h1>Fortune in Golang - Proof of Concept</h1>
+    <header>
+        <h1>Fortune in Golang - Proof of Concept</h1>
+    </header>
 
     
         <aside>
@@ -99,7 +223,6 @@
     
 
     <p>This is what I built at today&rsquo;s Memphis Hackathon.  Thanks a billion to the Memphis Makers and their MakerSpace!  There is plenty more to learn with Golang - I am just glad to have read some line from a file and split them on a delimiter.</p>
-
 <pre><code>package main
 
 import (
@@ -127,25 +250,25 @@ func nthFortune(n int) string {
     return theLine[:cutoff]
 }
 </code></pre>
-
-<p>Output:
-    # go run fortune.go
-    Cats, no less liquid than their shadows, offer no angles to the wind.</p>
-
+<h3 id="output">Output</h3>
+<pre><code># go run fortune.go
+Cats, no less liquid than their shadows, offer no angles to the wind.       
+</code></pre>
 
 </article>
+
 
 
 <section class="post-nav">
     <ul>
         
         <li>
-            <a href="https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/"><i class="fa fa-chevron-circle-left"></i> Favorite Ruby console tweaks to make my job easier - pry edition</a>
+            <a href="https://dpritchett.net/posts/2013-04-25-favorite-ruby-console-tweaks-to-make-my-job-easier---pry-edition/"><i class="fa fa-chevron-circle-left"></i> Favorite Ruby Console Tweaks to Make My Job Easier - Pry Edition</a>
         </li>
         
         
         <li>
-            <a href="https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/">Fixing PostgreSQL after Homebrew upgraded it from 9.1 to 9.2 and I was suddenly unable to access my existing databases <i class="fa fa-chevron-circle-right"></i> </a>
+            <a href="https://dpritchett.net/posts/2013-07-03-fixing-postgresql-after-homebrew-upgraded-it-from-91-to-92-and-i-was-suddenly-unable-to-access-my-existing-databases/">Fixing PostgreSQL After Homebrew Upgraded It From 9.1 to 9.2 and I Was Suddenly Unable to Access My Existing Databases <i class="fa fa-chevron-circle-right"></i> </a>
         </li>
         
     </ul>
@@ -157,13 +280,15 @@ func nthFortune(n int) string {
 
 
 </main>
-    <footer>
-        <h6> | 
-            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
-            <a href="https://dpritchett.net/index.xml">Subscribe</a></h6>
-    </footer>
+<footer>
+    <h6>
+        © 2026 Daniel Pritchett (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>)
+        | Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a>
+        | <a href="https://dpritchett.net/%20/sitemap.xml">Sitemap</a>
+        | <a href="https://dpritchett.net/%20/index.xml">Subscribe via RSS</a>
+    </h6>
+</footer>
 </div>
 <script src="https://dpritchett.net/js/scripts.js"></script>
 </body>
-
 </html>
